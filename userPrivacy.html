@@ -1,0 +1,886 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="visual_styles/animations/jquery-3.7.1.min.js"></script>
+    <title>Envog | Gizlilik Siyasəti</title>
+    <meta property="og:title" content="Envog | Gizlilik Siyasəti" />
+    <meta property="og:image" content="corporate-logo.svg" />
+    <meta name="twitter:title" content="Envog | Gizlilik Siyasəti" />
+    <meta name="twitter:description" content="Envog | Gizlilik Siyasəti" />
+    <meta name="twitter:image:src" content="corporate-logo.svg" />
+    
+    <meta property="og:description" content="Envog | Gizlilik Siyasəti" />
+    <meta name="description" content="Envog | Gizlilik Siyasəti" />
+    <link rel="stylesheet" href="visual_styles/screen/bootstrap.min.css" />
+    <link rel="stylesheet" href="visual_styles/screen/icons.css" />
+    <link rel="stylesheet" href="visual_styles/screen/buttons.css" />
+
+    <script src="visual_styles/animations/bootstrap.bundle.min.js"></script>
+
+    
+
+    <link rel="shortcut icon" href="corporate-logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="app.css" />
+
+    <style>
+
+      
+    </style>
+    
+  </head>
+
+  <body>
+    <script>
+      $(document).ready(function () {
+        if ($('.art-wr').css('flex-direction') == 'row') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'row-reverse') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column-reverse') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column-reverse') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+      });
+
+      window.addEventListener('resize', function () {
+        if ($('.art-wr').css('flex-direction') == 'row') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'row-reverse') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column-reverse') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column-reverse') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        if ($('body').css('direction') == 'ltr') {
+          $('.dropdown-menu').css({
+            right: 0,
+            left: 'auto',
+            'text-align': 'end',
+          });
+        }
+        if ($('body').css('direction') == 'rtl') {
+          $('.dropdown-menu').css({
+            left: 0,
+            right: 'auto',
+            'text-align': 'end',
+          });
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        if ($('.benefit-section').css('display') == 'block') {
+          $('.au-section').css({ display: 'none' });
+        }
+        if ($('.benefit-section').css('display') == 'none') {
+          $('.au-section').css({ display: 'block' });
+        }
+        if ($('.art-block').css('display') == 'none') {
+          $('.art-block-second').css({ display: 'block' });
+        }
+        if ($('.art-block').css('display') == 'block') {
+          $('.art-block-second').css({ display: 'none' });
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        if ($('.section').hasClass('form-section')) {
+          $('.partners').css({ display: 'block' });
+          $('.qa').css({ display: 'none' });
+          $('.comments').css({ display: 'none' });
+        } else {
+          $('.partners').css({ display: 'none' });
+          $('.qa').css({ display: 'block' });
+          $('.comments').css({ display: 'block' });
+        }
+      });
+    </script>
+
+    <div class="hero-bg">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+          <a href="./" class="header-logo">
+            <div class="header-logo-img">
+              <img src="corporate-logo.svg" alt="logo" />
+            </div>
+            <h2 class="logo-text m-0">Envog</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-three-dots"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+              />
+            </svg>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button type="button" class="of-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item" id="nav-item">
+                  <a class="nav-link" href="./">Ana səhifə</a>
+                </li>
+                <li class="nav-item dropdown" id="nav-item">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Xidmətlər
+                  </a>
+                  <ul class="dropdown-menu">
+                    
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="spa-services.html">Spa Xidmətləri</a>
+                    </li>
+                     
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="bridal-salon.html">Bridal Salon</a>
+                    </li>
+                     
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="wedding-hairstyles.html">Toy Saç düzümləri</a>
+                    </li>
+                     
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="beauty-salon.html">Gözəllik Salonu</a>
+                    </li>
+                    
+                  </ul>
+                </li>
+                <li class="nav-item" id="nav-item">
+                  <a class="nav-link" href="about-us.html">Biz kimik</a>
+                </li>
+                <li class="nav-item" id="nav-item">
+                  <a class="nav-link" href="speak-to-us.html">Bizimlə əlaqə saxlayın</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+
+</div>
+<div class='section' style='word-break: break-all;'>
+    <div class="container">
+        <h1>Envog | Gizlilik Siyasəti</h1>
+        <div style='overflow: hidden;'><p>Bu Gizlilik Siyasəti Xidmət istifadə etdiyiniz zaman Sizin məlumatlarınızın toplanması, istifadəsi və açıqlanması ilə bağlı bizim siyasət və prosedurları təsvir edir və Sizə sizin məxfilik hüquqlarınız və qanunun Sizi necə qoruduğu haqqında məlumat verir.</p>
+<p>Biz Sizin Şəxsi məlumatlardan xidmət təmin etmək və təkmilləşdirmək üçün istifadə edirik. Xidmətdən istifadə etməklə Siz bu Məxfilik Siyasətinə uyğun olaraq məlumatların toplanması və istifadəsinə razılıq verirsiniz.</p>
+<h1>Interpretasiya və Təsnifatlar</h1>
+<h2>Şərh</h2>
+<p>İlk hərfin kapitalizə olunduğu sözlər aşağıdakı şərtlər altında müəyyən edilmiş mənalara malikdirlər. Aşağıdakı təriflər birillikdə və ya çoxluqda görünməsindən asılı olmayaraq eyni mənanı daşıyır.</p>
+<h2>Təriflər</h2>
+<p>Bu Məxfilik Siyasətinin məqsədləri üçün:</p>
+<ul>
+	<li>
+		<p><strong>Hesab</strong> , Xidmətimizə və ya Xidmətimizin hissələrinə daxil olmaq üçün Sizin üçün yaradılmış unikal hesab deməkdir.</p>
+	</li>
+	<li>
+		<p>
+			<strong>Biznes</strong>, CCPA (California Consumer Privacy Act) məqsədi ilə Şirkəti istehlakçıların şəxsi məlumatlarını toplayan və onun məqsəd və vasitələrini müəyyən edən hüquqi şəxs kimi nəzərdə tutur
+			istehlakçıların şəxsi məlumatlarının işlənməsi, yaxud bu cür məlumatların toplandığı və yalnız və ya digər şəxslərlə birgə istehlakçıların şəxsi məlumatlarının işlənilməsinin məqsəd və vasitələrini müəyyən edən,
+			Kaliforniya ştatında bizneslə məşğul olan bir müəssisədir.</p>
+	</li>
+	<li>
+		<p><strong>Şirkət</strong> (bu Müqavilədə ya "Şirkət", "Biz", "Biz" və ya "Bizim" kimi qeyd olunur Veb-sayt) , Sadigjan Street, Apartment 4A, Bakı 1121, Azerbaijan</p>
+		<p>GDPR-in məqsədi üçün Şirkət Data Controller-dir.</p>
+	</li>
+	<li>
+		<p>
+			<strong>Consumer</strong>, CCPA (California Consumer Privacy Act) məqsədi ilə, Kaliforniya sakini olan təbii bir insan deməkdir. Rezident, qanunda müəyyən edilmiş kimi, 1) ABŞ-da olan hər bir şəxsin
+			müvəqqəti və ya tranzit məqsəddən başqa, həm də (2) müvəqqəti və ya tranzit məqsədi ilə ABŞ-dan kənarda olan ABŞ-da domiciled olan hər bir şəxs üçün.</p>
+	</li>
+	<li>
+		<p><strong>Kukilər</strong> sizin kompüter, mobil cihaz və ya hər hansı digər cihaz bir veb sayt tərəfindən yerləşdirilmiş kiçik fayllardır. Bu faylların bir çox istifadələri arasında həmin veb-saytda Sizin tarama tarixinizin detalları var.</p>
+	</li>
+	<li>
+		<p><strong>Ölkə</strong> istinad edir: Sadigjan Street, Apartment 4A, Bakı 1121, Azerbaijan</p>
+	</li>
+	<li>
+		<p>
+			<strong>Data Controller</strong>, GDPR (Ümumi Məlumatların Qorunması Qaydası) məqsədləri üçün Şirkəti yalnız və ya başqaları ilə birgə müəyyən edən hüquqi şəxs kimi nəzərdə tutur
+			Personal Data-nın işlənməsi.</p>
+	</li>
+	<li>
+		<p><strong>Cihaz</strong> kompüter, mobil telefon və ya rəqəmsal planşet kimi Service-ə daxil ola bilən hər hansı bir cihaz deməkdir.</p>
+	</li>
+	<li>
+		<p>
+			<strong>Do Not Track</strong> (DNT) — ABŞ-ın tənzimləyici orqanları, xüsusilə də ABŞ Federal Ticarət Komissiyası (FTC) tərəfindən irəli sürülmüş konsepsiyadır. İnternet sənayesinin inkişaf etdirilməsi və tətbiqi üçün
+			internet istifadəçilərinin veb-saytlar vasitəsilə onlayn fəaliyyətlərinin izlənilməsini nəzarətdə saxlamağa imkan verir.</p>
+	</li>
+	<li>
+		<p><strong>Personal Data</strong> — müəyyən edilmiş və ya müəyyən edilə bilən şəxsə aid olan hər hansı bir məlumat.</p>
+		<p>GDPR üçün məqsədlər üçün, Personal Data, adı, identifikasiya nömrəsi, məkan məlumatları, onlayn identifiktor və ya fiziki, fizioloji üçün spesifik bir və ya bir neçə faktor kimi Sizə aid hər hansı bir məlumat deməkdir,
+			genetik, əqli, iqtisadi, mədəni və ya sosial mənlik.</p>
+		<p>CCPA-nın məqsədləri üçün, Personal Data, Sizinlə əlaqəli olan, əlaqəli, təsvir edən və ya əlaqəli ola bilən və ya məntiqli olaraq əlaqəli ola biləcək hər hansı bir məlumatı, birbaşa və ya dolayı yolla, sizinlə əlaqələndirən və ya ola biləcək hər hansı bir məlumat deməkdir.</p>
+	</li>
+	<li>
+		<p>
+			<strong>Satış</strong>, CCPA (California Consumer Privacy Act) məqsədi ilə, satış, icarə, buraxmaq, açıqlamaq, yaymaq, əldə etmək, köçürmək və ya başqa şəkildə, yazılı şəkildə əlaqə yaratmaq deməkdir,
+			və ya elektron və ya digər vasitələrlə, istehlakçının şəxsi məlumatları pul və ya digər qiymətli nəzərə alınması üçün başqa biznesə və ya üçüncü tərəfə.</p>
+	</li>
+	<li>
+		<p><strong>Xidmət</strong> Vebsayta aiddir.</p>
+	</li>
+	<li>
+		<p>
+			<strong>Service Provider</strong> – Şirkətin adından məlumatları emal edən hər bir təbii və ya hüquqi şəxs deməkdir. Xidmətin asanlaşdırılması, təmin edilməsi üçün Şirkət tərəfindən işə götürülən üçüncü tərəf şirkətləri və ya şəxsləri nəzərdə tutur
+			Şirkət adından Xidmət, Xidmətlə bağlı xidmətlərin yerinə yetirilməsi və ya Xidmətin necə istifadə olunması ilə bağlı təhlildə Şirkətə kömək etmək. GDPR-in məqsədi üçün Xidmət Təminatçıları Data Prosessorlar hesab olunur.</p>
+	</li>
+	<li>
+		<p><strong>Üçüncü tərəf Sosial Media Xidməti istənilən veb-saytı</strong> və ya hər hansı sosial şəbəkə veb-saytını nəzərdə tutur. İstifadəçi bu veb-sayt vasitəsilə Xidmətdən istifadə etmək üçün daxil ola və ya hesab yarada bilər.</p>
+	</li>
+	<li>
+		<p><strong>İstifadə məlumatları</strong> avtomatik toplanan məlumatları nəzərdə tutur. Bu məlumatlar ya Xidmətdən istifadə nəticəsində yaranır, ya da Xidmət infrastrukturunun özündən (məsələn, səhifə ziyarətinin müddəti).</p>
+	</li>
+	<li>
+		<p><strong>Vebsayt</strong> daxil ola bilər Veb-sayt</p>
+	</li>
+	<li>
+		<p><strong>Siz</strong> xidmət, yaxud şirkət və ya digər hüquqi şəxs adından müraciət edən və ya istifadə edən şəxsi nəzərdə tutursunuz. Bu cür şəxsin Xidmətə daxil olması və ya istifadə etməsi, tətbiq edilməsi deməkdir.</p>
+		<p>GDPR (General Data Protection Regulation) çərçivəsində Siz Data Subject kimi və ya İstifadəçi kimi xidmət istifadə edən şəxs kimi istinad edilə bilər.</p>
+	</li>
+</ul>
+<h1>Şəxsi məlumatlarınızı toplamaq və istifadə etmək</h1>
+<h2>Toplanan Verilənlərin Növləri</h2>
+<h3>Şəxsi məlumatlar</h3>
+<p>Xidmətimizdən istifadə edərkən, Sizinlə əlaqə saxlamaq və ya müəyyən etmək üçün istifadə edilə biləcək müəyyən şəxsi məlumatları Bizə təqdim etməyinizi xahiş edə bilərik. Şəxsən müəyyən edilə bilən məlumatlara aşağıdakılar daxil ola bilər, lakin bunlarla məhdudlaşmır:</p>
+<ul>
+	<li>E-poçt ünvanı</li>
+	<li>Ad və soyad</li>
+	<li>Telefon nömrəsi</li>
+	<li>Ünvan, Dövlət, Bələdiyyə, ZIP/Poçt kodu, Şəhər</li>
+	<li>Sosial Media Profil məlumatları (ie. from Connect with Facebook, Sign In With Twitter)</li>
+	<li>Digərləri</li>
+</ul>
+<h3>İstifadə Məlumatları</h3>
+<p>İstifadə Məlumatları Xidmətdən istifadə zamanı avtomatik olaraq toplanır.</p>
+<p>İstifadə Məlumatları Sizin Cihazınızın İnternet Protokolu ünvanı (məs. IP ünvanı), brauzer növü, brauzer versiyası, Sizin ziyarət etdiyiniz Xidmətimizin səhifələri, Ziyarətinizin vaxtı və tarixi, həmin şəxslərə sərf olunan vaxt kimi məlumatlar daxil ola bilər
+	səhifələri, unikal cihaz identifikatorları və digər diaqnostik məlumatlar.</p>
+<p>Siz Mobil cihaz vasitəsilə və ya vasitəsilə Service daxil olduqda, Biz avtomatik olaraq, o cümlədən, lakin məhdud deyil mobil cihaz növü, Sizin mobil cihaz unikal ID, Sizin mobil mobil cihaz IP ünvanı
+	cihaz, Sizin mobil əməliyyat sistemi, istifadə etdiyiniz mobil İnternet brauzer növü, unikal cihaz identifikatorları və digər diaqnostik məlumatlar.</p>
+<p>Biz həmçinin Sizin brauzerinizin göndərdiyi məlumatları hər dəfə Xidmətimizə baş çəkdiyiniz zaman və ya Mobil cihaz vasitəsilə və ya vasitəsilə Xidmətə daxil olduqda toplaya bilərik.</p>
+<h3>Üçüncü Tərəf Sosial Media Xidmətlərinin Məlumatı</h3>
+<p>Şirkət Aşağıdakı Üçüncü Tərəf Sosial Media Xidmətləri vasitəsilə Xidmətdən istifadə etmək üçün hesab yaratmağa və daxil olmağa imkan verir:</p>
+<ul>
+	<li>Google</li>
+	<li>Facebook</li>
+	<li>Twitter</li>
+</ul>
+<p>Əgər Siz qeydiyyatdan keçmək və ya başqa cür bizə Üçüncü Tərəf Sosial Media Xidmətinə daxil olmaq imkanı vermək qərarına gəlsəniz, Biz Sizin Üçüncü Tərəf Sosial Media Xidmətinin hesabınızla artıq əlaqəli olan Şəxsi məlumatları toplaya bilərik. Məsələn, Sizin adınız, Sizin
+	e-poçt ünvanı, Your activities və ya Həmin hesab ilə əlaqəli sizin əlaqə siyahısı.</p>
+<p>Sizin Üçüncü Tərəf Sosial Media Xidmətinin hesabı vasitəsilə Şirkətlə əlavə məlumat paylaşmaq imkanınız da ola bilər. Əgər Siz belə məlumat və Şəxsi Data təmin etmək üçün seçin, qeydiyyat zamanı və ya digər, Siz
+	istifadə etmək, paylaşmaq və bu Məxfilik Siyasətinə uyğun bir şəkildə saxlamaq üçün Şirkətə icazə verir.</p>
+<h3>İzləmə Texnologiyaları və Kukilər</h3>
+<p>Biz Cookies və oxşar izleme texnologiyalarından istifadə edərək Bizim Xidmət üzrə fəaliyyəti izləmək və müəyyən məlumat saxlamaq. İstifadə olunan izləmə texnologiyaları informasiya toplamaq və izləmək, təkmilləşdirmək və təhlil etmək üçün beacons, tags və skriptlərdir
+	Bizim Xidmət. İstifadə etdiyimiz texnologiyalara aşağıdakılar aid ola bilər:</p>
+<ul>
+	<li>
+		<strong>Kukilər və ya brauzer kukiləri.</strong> Bir cookie — Sizin Cihazınıza qoyulan kiçik fayldır. Brauzerinizə göstəriş verə bilərsiniz ki, bütün Cookies-lərdən imtina edin və ya Cookie-nin nə vaxt göndərildiyini göstərəsiniz. Lakin, Əgər Siz Cookies qəbul etmirsinizsə, Siz
+		xidmətimizin bəzi hissələrindən istifadə edə bilməyə bilər. Sizin browser ayarlarınızı Cookies-dən imtina edəcək qədər düzəliş etməmisinizsə, Bizim Xidmət Cookies-dən istifadə edə bilər.</li>
+	<li>
+		<strong>Web Beacons.</strong> Bizim Xidmət və bizim e-poçt bəzi bölmələr web beacons kimi tanınan kiçik elektron faylları (həmçinin aydın gifs, pixel tags, və tək-pixel gifs kimi nəzərdə tutulur) ola bilər ki, Şirkət icazə verir, üçün
+		məsələn, həmin səhifələri ziyarət etmiş və ya e-mail açmış istifadəçiləri saymaq və bununla bağlı digər veb-sayt statistikası (məsələn, müəyyən bölmənin populyarlığını qeyd etmək və sistem və server bütövlüyünü yoxlamaq).</li>
+</ul>
+<p>Kukilər "Davamlı" və ya "Session" Cookies ola bilər. Daimi Cookies Sizin şəxsi kompüter və ya mobil cihazda siz offline getmək zaman qalır. Bununla yanaşı Session Cookies sizin web browser bağlamaq kimi silinir.</p>
+<p>Biz aşağıda göstərilən məqsədlər üçün həm Session, həm də Persistent Cookies istifadə edirik:</p>
+<ul>
+	<li>
+		<p><strong>Lazımlı / Zəruri Kukilər</strong></p>
+		<p>Növ: Session Cookies</p>
+		<p>İdarə edir: Biz</p>
+		<p>Məqsəd: Bu Kukilər Vebsayt vasitəsi ilə Sizə mövcud olan xidmətləri təqdim etmək və onun bəzi xüsusiyyətlərindən istifadə etmək imkanını təmin etmək üçün zəruridir. Onlar istifadəçilərin təsdiqinə və istifadəçi hesablarından saxtakarlıqla istifadənin qarşısının alınması üçün kömək edirlər. Onsuz
+			bu Cookies, Sizin xahiş etdiyiniz xidmətlər təmin edilə bilməz. Biz yalnız bu Cookies istifadə edərək Sizə həmin xidmətləri təqdim.</p>
+	</li>
+	<li>
+		<p><strong>Cookies Siyasəti / Notice Qəbul Cookies</strong></p>
+		<p>Növ: Qalıcı Çerezlər</p>
+		<p>İdarə edir: Biz</p>
+		<p>Məqsəd: Bu Kukilər İstifadəçilərin Vebsaytda kukilərin istifadəsini qəbul edib-etməməni müəyyən edir.</p>
+	</li>
+	<li>
+		<p><strong>Funksionallıq Kukilər</strong></p>
+		<p>Növ: Qalıcı Çerezlər</p>
+		<p>İdarə edir: Biz</p>
+		<p>Məqsəd: Bu Kukilər Vebsaytdan istifadə edərkən etdiyiniz seçimləri yadda saxlamağa imkan verir. Məsələn, sizin giriş detallarınızı və ya dil üstünlüyünü yadda saxlayın. Bu Kukilərin məqsədi Sizi daha çox şəxsi təcrübə ilə təmin etməkdir
+			Və hər dəfə Vebsaytdan istifadə etdiyiniz zaman tercihlerinizi yenidən daxil etmək məcburiyyətində qalmamaq üçün.</p>
+	</li>
+	<p><strong>İzləmə və Performans Kukiləri</strong></p>
+	<p>Növ: Qalıcı Çerezlər</p>
+	<p>İdarə edir: Üçüncü Tərəflər</p>
+	<p>Məqsəd: Bu Kukilər Vebsayta trafik və istifadəçilərin Vebsaytdan necə istifadə etmələri haqqında məlumatları izləmək üçün istifadə olunur. Bu Kukilər vasitəsilə toplanan məlumatlar birbaşa və ya dolayı yolla sizi fərdi ziyarətçi kimi tanıya bilər. Budur
+		çünki toplanan məlumatlar, adətən, Vebsayta daxil olmaq üçün istifadə etdiyiniz cihazla əlaqəli psevdonim identifikativlə əlaqəlidir. Bu Kukilərdən də istifadə edərək yeni səhifələri, xüsusiyyətləri və ya yeni funksionallığı yoxlaya bilərik
+		İstifadəçilərimizin onlara necə reaksiya verdiyini görmək üçün veb-sayt.</p>
+
+	<li>
+		<p><strong>Hədəfləmə və Reklam Kukilər</strong></p>
+		<p>Növ: Qalıcı Çerezlər</p>
+		<p>İdarə edir: Üçüncü Tərəflər</p>
+		<p>Məqsəd: Bu Cookies sizin tarama vərdişlərinizi izləyir ki, Biz sizin üçün daha çox maraq doğuran reklam göstərmək üçün imkan verir. Bu Cookies sizin tarama tarixi haqqında məlumat istifadə edərək, Digər istifadəçilər ilə qruplaşdırılması
+			oxşar maraqlara səbəb olur. Həmin məlumata əsaslanaraq və Bizim icazəmizlə üçüncü tərəf reklamverənləri Cookies-i yerləşdirə bilərlər ki, onlar reklamları göstərə bilərlər. Biz düşünürük ki, siz üçüncü şəxslərdə olarkən sizin maraqlarınıza aid olacaq
+			saytları.</p>
+	</li>
+</ul>
+<p>İstifadə etdiyimiz kukilər və kukilər ilə bağlı seçimləriniz haqqında daha ətraflı məlumat üçün, xahiş edirik, Bizim Cookies Policy və ya Məxfilik Siyasətimizin Cookies bölməsinə baş çəkin.</p>
+<h2>Şəxsi məlumatlarınızın istifadəsi</h2>
+<p>Şirkət Şəxsi Məlumatlardan aşağıdakı məqsədlər üçün istifadə edə bilər:</p>
+<ul>
+	<li><strong>Xidmətimizin təmin edilməsi və qorunması</strong>, o cümlədən Xidmətimizin istifadəsinin nəzarətdə saxlanılması.</li>
+	<li>
+		<strong>Sizin Hesabınızı idarə etmək üçün:</strong> Sizin qeydiyyatınızı Xidmətin istifadəçisi kimi idarə etmək. Təqdim Etdiyiniz Şəxsi Məlumatlar Sizə qeydiyyatdan keçmiş kimi Sizin üçün əlçatan olan Xidmətin müxtəlif funksiyalarına çıxış imkanı verə bilər
+		istifadəçi.</li>
+	<li>
+		<strong>Müqavilənin icrası üçün:</strong> Satın aldığınız məhsullar, əşyalar və ya xidmətlər üçün alqı-satqı müqaviləsinin hazırlanması, yerinə yetirilməsi və ya Xidmət vasitəsilə Bizimlə hər hansı digər müqavilənin bağlanması.</li>
+	<li>
+		<strong>Sizinlə əlaqə saxlamaq üçün:</strong> E-poçt, telefon zəngləri, SMS və ya elektron rabitənin digər ekvivalent formaları ilə Sizinlə əlaqə saxlamaq üçün, məsələn, mobil tətbiq yeniləmə və ya informativ rabitə ilə bağlı push bildirişləri
+		onların həyata keçirilməsi üçün zəruri və ya ağlabatan olduqda, təhlükəsizlik yenilənmələri də daxil olmaqla, funksional, məhsul və ya müqaviləli xidmətlərlə bağlıdır.</li>
+	<li>
+		Sizə artıq aldığınız və ya sorğu etdiyiniz digər mallar, xidmətlər və hadisələr haqqında xəbərlər, xüsusi təkliflər və ümumi məlumatlar <strong>təqdim etmək üçün</strong>, əgər Sizdə yoxdursa
+		bu cür məlumatları almamaq üçün imtina edilmişdir.</li>
+	<li><strong>İstəklərinizi idarə etmək üçün:</strong> (Ya Peyğəmbər!) Bizə olan duanı (duanı) qəbul etmək və (bu məsələləri) et.</li>
+	<li>
+		<strong>Hədəfli reklamları Sizə çatdırmaq üçün</strong>: Biz Sizin məlumatlardan istifadə edərək kontent və reklam (və bunu edən üçüncü tərəf satıcıları ilə iş) inkişaf etdirmək və göstərmək üçün istifadə edə bilərik. Sizin maraqlarınıza və/və ya məkanınıza uyğunlaşdırılmış və
+		effektivliyini ölç.</li>
+	<li>
+		<strong>Biznes köçürmələri üçün:</strong> Biz Sizin məlumatlardan istifadə edərək birləşmə, divestitura, restrukturizasiya, yenidən təşkil etmə, dissestsiya və ya digər satış və ya köçürmə, istər bizim əmlakın, istərsə də bir kimi
+		getmək narahatlıq və ya müflisləşmə, ləğv, və ya oxşar prosesi hissəsi kimi. Bu, bizim Xidmət istifadəçiləri haqqında Bizim şəxsi data saxlanılır əmlak transfer olunur.</li>
+	<li>
+		<strong>Digər məqsədlər üçün</strong>: Məlumat analizi, istifadə tendensiyalarını müəyyən etmək, promosyon kampaniyalarımızın effektivliyini müəyyən etmək və bizim qiymətləndirmə və təkmilləşdirmə kimi digər məqsədlər üçün Sizin məlumatlarınızı istifadə edə bilərik
+		Xidmət, məhsullar, xidmətlər, marketinq və təcrübəniz.</li>
+</ul>
+<p>Şəxsi məlumatlarınızı aşağıdakı hallarda paylaşa bilərik:</p>
+<ul>
+	<li>
+		<strong>Xidmət Təminatçıları ilə:</strong> Xidmətimizdən istifadəni izləmək və təhlil etmək, Xidmətimizə dəstək və qoruyub saxlamağa kömək etmək üçün Sizə reklamları göstərmək üçün Xidmət Təminatçıları ilə Şəxsi məlumatlarınızı paylaşa bilərik,
+		üçüncü tərəf veb-saytlarında Reklam Siz Bizim Xidmət ziyarət etdikdən sonra, ödəniş işlənməsi üçün, Sizinlə əlaqə saxlamaq üçün.</li>
+	<li>
+		<strong>Biznes köçürmələri üçün:</strong> Biz Sizin şəxsi məlumatlarınızı hər hansı bir birləşmə, Şirkət əmlakının satışı, maliyyələşdirilməsi və ya bizim bütün və ya bir hissəsinin alınması ilə əlaqədar və ya müzakirələr zamanı paylaşa və ya təhvil verə bilərik
+		biznes başqa bir şirkətə.</li>
+	<li>
+		<strong>Affiliates ilə:</strong> Biz Sizin məlumatlarınızı bizim filiallarımızla bölüşə bilərik. Bu halda biz həmin filiallardan bu Məxfilik Siyasətinə hörmət etməyi tələb edəcəyik. Affiliates daxildir Bizim valideyn şirkət və hər hansı digər filialları,
+		(Siz öləndən sonra) Bizim onu qəbul etdiyimiz kimi və ya (aramızda) genişdir.</li>
+	<li><strong>Biznes tərəfdaşları ilə:</strong> Sizə müəyyən məhsul, xidmət və ya promosyonlar təklif etmək üçün Biznes tərəfdaşlarımızla Sizin məlumatlarınızı paylaşa bilərik.</li>
+	<li>
+		<strong>Digər istifadəçilərlə:</strong> Siz şəxsi məlumatları paylaşdıqda və ya ictimai yerlərdə başqa cür digər istifadəçilərlə ünsiyyətdə olduqda, bu cür məlumatlara bütün istifadəçilər tərəfindən baxıla bilər və bayırda açıq şəkildə paylana bilər. Əgər ünsiyyət qursanız
+		digər istifadəçilər ilə və ya Üçüncü Tərəf Sosial Media Xidməti vasitəsilə qeydiyyatdan keçin. Üçüncü Tərəf Sosial Media XidmətindəKi əlaqələriniz Sizin fəaliyyətinizin adı, profili, şəkilləri və təsvirini görə bilər. Eynilə, digər istifadəçilər də olacaq
+		fəaliyyətinizin təsvirlərinə baxa bilmək, Sizinlə ünsiyyət qurmaq və Profilinizə baxmaq.</li>
+	<li><strong>Sizin razılığınızla. Sizin razılığınızla</strong> sizin şəxsi məlumatlarınızı istənilən başqa məqsədlə açıqlaya bilərik.</li>
+</ul>
+<h2>Şəxsi məlumatlarınızın saxlanılması</h2>
+<p>Şirkət Sizin Şəxsi Məlumatlarınızı yalnız bu Məxfilik Siyasətində nəzərdə tutulmuş məqsədlər üçün lazım olduğu qədər saxlayacaqdır. Hüquqi öhdəliklərimizi yerinə yetirmək üçün lazım olan dərəcədə Sizin Şəxsi Məlumatlarınızı qoruyub saxlayacağıq və istifadə edəcəyik (for
+	nümunə, əgər biz tətbiqi qanunlara riayət etmək üçün sizin məlumat saxlamaq tələb olunursa, mübahisələri həll edin, bizim hüquqi saziş və siyasəti həyata keçirmək.</p>
+<p>Şirkət həmçinin daxili analiz məqsədləri üçün istifadə Data saxlayacaq. İstifadə Verilənləri ümumi olaraq daha qısa müddət ərzində saxlanılır. Yalnız bu məlumatlar təhlükəsizliyi gücləndirmək və ya Bizim funksionallığı yaxşılaşdırmaq üçün istifadə edildikdə
+	Service, və ya Biz qanuni olaraq bu məlumatları daha uzun müddət saxlamaq məcburiyyətindəyik.</p>
+<h2>Şəxsi məlumatlarınızın köçürülməsi</h2>
+<p>Şəxsi məlumatlar daxil olmaqla, məlumatlarınız Şirkətin əməliyyat ofislərində və prosessinqdə iştirak edən tərəflərin yerləşdiyi hər hansı digər yerlərdə emal olunur. Bu o deməkdir ki, bu məlumatlar ötürülə bilər - və
+	üzərində qorunur — Sizin dövlət, bələdiyyə, ölkə və ya digər dövlət yurisdiksiyasından kənarda yerləşən kompüterlər. Məlumatların qorunması qanunları Sizin yurisdiksiyanızdakılardan fərqlənə bilər.</p>
+<p>Sizin bu Gizlilik Siyasətinə razılığınız, bundan sonra sizin bu cür məlumatların göndərilməsi Sizin həmin transferə olan razılaşmanızı təmsil edir.</p>
+<p>Şirkət sizin məlumatlarınıza təhlükəsiz və bu Məxfilik Siyasətinə uyğun şəkildə baxılmasını təmin etmək üçün bütün lazımi addımları atacaq və şəxsi məlumatlarınızın heç bir transferi bir təşkilata və ya ölkəyə baş verməyəcək, əgər
+	sizin məlumatların təhlükəsizliyi və digər şəxsi məlumatlar daxil olmaqla, yerində kifayət qədər nəzarət var.</p>
+<h2>Şəxsi məlumatlarınızın açıqlanması</h2>
+<h3>Biznes Sövdələşmələr</h3>
+<p>Əgər Şirkət birləşmə, alış və ya var-dövlət satışı ilə məşğul olursa, Sizin Şəxsi Məlumatlarınız köçürülə bilər. Biz Sizin Şəxsi Data transfer əvvəl bildiriş təmin edəcək və müxtəlif Gizlilik Siyasəti tabe olacaq.</p>
+<h3>Hüquq-mühafizə orqanları</h3>
+<p>Müəyyən şəraitdə Şirkətdən tələb olunarsa, Sizin Şəxsi Məlumatlarınızı qanunla və ya dövlət orqanlarının (məsələn, məhkəmə və ya dövlət orqanının) əsaslı müraciətlərinə cavab olaraq açıqlamaq tələb oluna bilər.</p>
+<h3>Digər hüquqi tələblər</h3>
+<p>Şirkət sizin şəxsi məlumatlarınızı yaxşı iman inancı ilə açıqlaya bilər ki, belə bir hərəkət zəruridir:</p>
+<ul>
+	<li>Hüquqi öhdəliyi yerinə yetirmək</li>
+	<li>Şirkətin hüquqlarını və ya əmlakını qorumaq və müdafiə etmək</li>
+	<li>Xidmətlə əlaqədar ola biləcək qanunsuzluqların qarşısının alınması və ya araşdırılması</li>
+	<li>Xidmətin İstifadəçilərinin və ya ictimaiyyətin şəxsi təhlükəsizliyini qoruyun</li>
+	<li>Hüquqi məsuliyyətdən qorun</li>
+</ul>
+<h2>Şəxsi məlumatlarınızın təhlükəsizliyi</h2>
+<p>Sizin Şəxsi Məlumatlarınızın təhlükəsizliyi Bizim üçün vacibdir. Lakin unutmayın ki, İnternet üzərindən ötürülmənin heç bir üsulu, yəni elektron saxlama üsulu 100% təhlükəsizdir. Biz isə sənin üçün kommersiya cəhətdən məqbul olan vasitələrdən istifadə etməyə çalışırıq
+	Personal Data, Biz onun mütləq təhlükəsizliyi zəmanət verə bilməz.</p>
+<h1>Şəxsi məlumatlarınızın işlənməsi haqqında ətraflı məlumat</h1>
+<p>İstifadə etdiyimiz Xidmət Təminatçıları Sizin Şəxsi Məlumatlarınıza müraciət edə bilər. Bu üçüncü tərəf satıcılar Məxfilik Siyasətlərinə uyğun olaraq Bizim Xidmət haqqında Sizin fəaliyyət haqqında məlumat toplayır, saxlayır, istifadə edir, proses və transfer edir.</p>
+<h2>Analitika</h2>
+<p>Xidmətimizin istifadəsini izləmək və təhlil etmək üçün üçüncü tərəf Xidmət təminatçılarından istifadə edə bilərik.</p>
+<ul>
+	<li>
+		<p><strong>Google Analytics</strong></p>
+		<p>Google Analytics — Google şirkətinin veb-sayt trafiklərini izləyən və hesabat verən veb-analitika xidməti. "Google" şirkəti toplanmış məlumatlardan xidmətimizin istifadəsini izləmək və izləmək üçün istifadə edir. Bu məlumatlar digər Google xidmətləri ilə paylaşılır.
+			Google toplanmış məlumatlardan öz reklam şəbəkəsinin reklamlarını kontekstləşdirmək və şəxsi xarakterizə etmək üçün istifadə edə bilər.</p>
+		<p>"Google Analytics" opt-out brauzer əlavəsi quraşdırmaqla "Google Analytics" üçün əlçatan olan "Servis"də fəaliyyətinizi etməkdən imtina edə bilərsiniz. Bu add-on Google Analytics JavaScript (ga.js, analytics.js və
+			dc.js) ziyarət fəaliyyəti haqqında Google Analytics ilə məlumat bölüşməkdən.</p>
+		<p>Google-un məxfilik praktikaları haqqında daha ətraflı məlumat üçün, zəhmət olmasa, Google Privacy &amp;Terms veb səhifəsinə daxil olun:
+			<a href="https://policies.google.com/privacy" rel="external nofollow noopener" target="_blank">https://policies.google.com/privacy</a>
+		</p>
+	</li>
+</ul>
+<h2>Ödənişlər</h2>
+<p>Biz Xidmət daxilində ödənişli məhsul və/və ya xidmətlər təqdim edə bilərik. Belə olan halda biz ödəniş proseduru üçün üçüncü tərəfin xidmətlərindən istifadə edə bilərik (məs. ödəniş prosessorları).</p>
+<p>Biz Sizin ödəniş kartı detallarını nə saxlayacağıq, nə də toplayacağıq. Bu məlumat birbaşa Bizim üçüncü tərəf ödəniş prosessorlarına verilir. Sizin şəxsi məlumatlardan istifadə onların Privacy Policy ilə idarə olunur. Bu ödəniş prosessorları
+	PCI-DSS tərəfindən təyin edilmiş standartlara riayət etmək, PCI Təhlükəsizlik Standartları Şurası tərəfindən idarə olunur. Bu, Visa, Mastercard, American Express və Discover kimi markaların birgə səyləridir. PCI-DSS tələbləri təhlükəsiz işlənməsini təmin etmək üçün kömək edir
+	ödəniş haqqında məlumat.</p>
+<ul>
+	<li>
+		<p><strong>Bank Köçürməsi</strong></p>
+	</li>
+	<li>
+		<p><strong>Authorize.net</strong></p>
+		<p>Onların Məxfilik Siyasətinə <a href="https://www.authorize.net/company/privacy/" target="_blank">https://www.authorize.net/company/privacy/</a> baxa bilərsiniz</p>
+	</li>
+	<li>
+		<p><strong>PayPal</strong></p>
+		<p>Onların Məxfilik Siyasətinə <a href="https://www.paypal.com/myaccount/privacy/privacyhub" target="_blank">https://www.paypal.com/myaccount/privacy/privacyhub</a> baxa bilərsiniz</p>
+	</li>
+	<li>
+		<p><strong>Google Play In-App ödənişləri</strong></p>
+		<p>Onların Məxfilik Siyasətinə baxmaq olar
+			<a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank">https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice</a>
+		</p>
+	</li>
+</ul>
+<h1>GDPR Məxfilik</h1>
+<h2>GDPR çərçivəsində şəxsi məlumatların işlənməsinin hüquqi əsasları</h2>
+<p>Şəxsi Məlumatları aşağıdakı şərtlər altında emal edə bilərik:</p>
+<ul>
+	<li><strong>Razılıq:</strong> Siz bir və ya bir necə konkret məqsədlər üçün Personal Data işlənməsi üçün Sizin razılığını verdi.</li>
+	<li><strong>Müqavilənin icrası:</strong> Şəxsi məlumatların verilməsi Sizinlə müqavilənin icrası və/və ya onun hər hansı bir müqavilədən əvvəlki öhdəlikləri üçün zəruridir.</li>
+	<li><strong>Hüquqi öhdəliklər:</strong> Şirkətin tabe olduğu hüquqi öhdəliyi yerinə yetirmək üçün Şəxsi Məlumatların işlənməsi zəruridir.</li>
+	<li><strong>Mühüm maraqlar:</strong> Şəxsi məlumatların işlənməsi Sizin həyati maraqlarınızı və ya başqa bir təbii insanı qorumaq üçün zəruridir.</li>
+	<li><strong>İctimai maraqlar:</strong> Şəxsi məlumatların işlənməsi ictimai maraqlara və ya Şirkətdə vested edilmiş rəsmi səlahiyyətin həyata keçirilməsini həyata keçirən tapşırıqla bağlıdır.</li>
+	<li><strong>Qanuni maraqlar:</strong> Personal Datanın işlənməsi Şirkət tərəfindən həyata keçirilən qanuni maraqların məqsədləri üçün zəruridir.</li>
+</ul>
+<p>Hər bir halda, Şirkət məmnuniyyətlə işlənmə zamanı tətbiq edilən konkret hüquqi əsaslandırmanın aydınlaşdırılmasına kömək edəcək. Xüsusilə də Şəxsi Məlumatların verilməsi qanunvericiliklə və ya müqavilə tələbi ilə, yoxsa zəruri tələb
+	müqavilə bağlamaq.</p>
+<h2>GDPR-in nəzdindəki Hüquqlarınız</h2>
+<p>Şirkət Sizin Şəxsi Məlumatlarınızın məxfiliyinə hörmət etmək və Hüquqlarınızı həyata keçirə biləcəyinizə zəmanət vermək üçün öz öhdənizə götürüb.</p>
+<p>Bu Gizlilik Siyasəti altında hüququnuz var, və qanunla əgər Siz AB daxilindəsinizsə, aşağıdakılara:</p>
+<ul>
+	<li>
+		<strong>Şəxsi məlumatlarınıza daxil olmaq istəyin.</strong> Sizin haqqınızda bizdə olan məlumatlara daxil olmaq, yeniləmək və ya silmək hüququ. Mümkün olduqda, siz daxil birbaşa daxil şəxsi məlumatlarınızın silinməsinə daxil ola, yeniləyə və ya xahiş edə bilərsiniz
+		Hesab qurğularınız bölməsi. Əgər siz özünüz bu hərəkətləri yerinə yetirə bilmirsinizsə, zəhmət olmasa, Bizə müraciət edərək Sizə kömək edin. Bu həm də Sizin haqqınızda saxladığımız Şəxsi Məlumatların surətini almağınızı təmin edir.</li>
+	<li><strong>Sizin haqqınızda saxladığımız Şəxsi Məlumatların korreksiyasını istəyin.</strong> Sizin haqqınız var ki, sizin haqqınızda hər hansı natamam və ya qeyri-dəqiq məlumat əldə edək Biz Sizin haqqınızda düzəliş etdik.</li>
+	<li>
+		<strong>Şəxsi Məlumatlarınızın işlənməsi obyekti.</strong> Bu hüquq var ki, Biz bizim işlənmə üçün hüquqi əsas kimi qanuni maraq güvənir və Sizin xüsusi vəziyyəti ilə bağlı bir şey var. Bu, edir
+		Bu yerdə Sizin Şəxsi Məlumatlarınızı işə silməmizə etiraz etmək istəyirsiniz. Siz həmçinin birbaşa marketinq məqsədləri üçün Sizin Şəxsi Məlumatlarınızı işlədiyimiz yerdə etiraz etmək hüququnuz var.</li>
+	<li>Şəxsi <strong>məlumatlarınızın silinməsini istəyin.</strong> Biz onu işə davam etmək üçün heç bir əsaslı səbəb olmadığı halda, Siz Bizdən Xahiş etmək və ya Şəxsi Data aradan qaldırılması üçün hüquq var.</li>
+	<li>
+		<strong>Şəxsi məlumatlarınızın köçürülməsini xahiş edin.</strong> Biz Sizə, və ya seçdiyiniz üçüncü tərəfə Sizin Şəxsi Məlumatlarınızı strukturlaşdırılmış, ümumi istifadə olunan, maşın oxuna bilən formatda təqdim edəcəyik. Xahiş edirik qeyd edin ki, bu hüquq yalnız
+		(Ya Məhəmməd!) Biz (Zəki) bu iki mə ' lumatı (lövh) ilə tə ' niqdiq etdik ki, sən bizim üçün bir müddət (əvvəlcə) sənin yanına (sənin yanında) hazır olsun?</li>
+	<li>
+		(<strong>Ya Allah!) Sən (bundan) razı olaraq geri çək!</strong> Şəxsi məlumatlarınızı istifadə etmək barədə razılığınızı geri almaq hüququnuz var. Əgər siz razılığınızı geri götürsəniz, Biz sizə müəyyən funksiyaların təmin edə bilməyəcəyik
+		Xidmət.</li>
+</ul>
+<h2>GDPR Məlumatların Qorunması Hüquqlarınızdan Istifadə Etmək</h2>
+<p>Siz Bizə müraciət edərək sizin giriş, rektifikasiya, ləğv və müqavimət hüquqlarınızı istifadə edə bilərsiniz. Xahiş edirik, qeyd edək ki, bu cür müraciətlərə cavab verməmişdən əvvəl Sizdən şəxsiyyətinizi yoxlamağınızı xahiş edə bilərik. Əgər bir xahiş etsəniz, əlimizdən gələni edəcəyik
+	mümkün qədər tez cavab vermək.</p>
+<p>Sizin Şəxsi Məlumatlarınızın toplanması və istifadəsi ilə bağlı Məlumatların Mühafizəsi İdarəsinə şikayət etmək hüququnuz var. Daha ətraflı məlumat üçün, Əgər Siz Avropa İqtisadi Sahəsində (EEA) varsa, zəhmət olmasa, Sizin yerli məlumatların qorunması səlahiyyətlisi ilə əlaqə saxlayın
+	EEA-da fəaliyyət.</p>
+<h1>CCPA Gizlilik</h1>
+<p>Kaliforniya sakinləri üçün bu məxfilik bildirişi bölməsi Bizim Məxfilik Siyasətimiz-də olan məlumatları əlavə edir və yalnız Bütün ziyarətçilərə, istifadəçilərə və Kaliforniya ştatında yaşayan digər şəxslərə aiddir.</p>
+<h2>Fərdi məlumatlar Toplanılmış kateqoriyalar</h2>
+<p>Biz müəyyən Bir Ticarət və ya Cihaz ilə müəyyən bir əlaqə, əlaqəli, təsvir, istinadlar, əlaqə və ya ola bilər ki, birbaşa və ya dolayı ola bilər məlumat toplamaq. Aşağıdakıların siyahısı
+	son on iki (12) ay ərzində Kaliforniya sakinlərindən topladığımız və ya ola bilsin, topladığımız şəxsi məlumatların kateqoriyaları.</p>
+<p>Nəzərinizə çatdıraq ki, aşağıda göstərilən siyahıda göstərilən kateqoriyalar və nümunələr CCPA-da müəyyən edilənlərdir. Bu o demək deyil ki, həmin kateqoriyalı şəxsi məlumatların bütün nümunələri faktiki olaraq Tərəfimizdən toplanmışdı, lakin bizim yaxşılığımızı əks etdirir
+	iman iman bizim ən yaxşı bilik ki, tətbiqi kateqoriyadan bəzi bu məlumatlar ola bilər və ola bilər ki, toplanmışdır. Məsələn, şəxsi məlumatların müəyyən kateqoriyaları yalnız Əgər Siz təmin
+	Bu cür şəxsi məlumatlar birbaşa Bizə.</p>
+<ul>
+	<li>
+		<p><strong>A kateqoriyası: Identifikatorlar.</strong></p>
+		<p>Nümunələr: Əsl ad, soyad, poçt ünvanı, unikal şəxsi identifikator, onlayn identifikator, İnternet Protokol ünvanı, e-poçt ünvanı, hesab adı, sürücülük vəsiqəsinin nömrəsi, pasport nömrəsi və ya digər oxşar identifikatorlar.</p>
+		<p>Topladı: Bəli.</p>
+	</li>
+	<li>
+		<p><strong>B kateqoriyası: Kaliforniya Müştəri Rekordları qanununda qeyd olunan şəxsi məlumat kateqoriyaları (Cal. Civ. Code § 1798.80(e)).</strong></p>
+		<p>Misallar: Ad, imza, Sosial Müavinət nömrəsi, fiziki xarakterli və ya təsviri, ünvan, telefon nömrəsi, pasport nömrəsi, sürücülük vəsiqəsi və ya dövlət eyniləşdirmə kartı nömrəsi, sığortaolunanın uçot nömrəsi, təhsil,
+			əmək haqqı, iş tarixi, bank hesab nömrəsi, kredit kartının nömrəsi, debet kartının nömrəsi və ya hər hansı digər maliyyə məlumatları, tibbi məlumatlar və ya tibbi sığorta məlumatları. Bu barədə daxil olan bəzi şəxsi məlumatlar
+			kateqoriyası digər kateqoriyalarla üst-üstə gələ bilər.</p>
+		<p>Topladı: Bəli.</p>
+	</li>
+	<li>
+		<p><strong>C kateqoriyası: Kaliforniya və ya federal qanunlar çərçivəsində qorunan klassifikasiya xarakteristikaları.</strong></p>
+		<p>Nümunələr: Yaş (40 yaş və ya daha yuxarı), irq, rəng, əcdad, milli mənşə, vətəndaşlıq, din və ya etiqad, nikah vəziyyəti, tibbi vəziyyət, fiziki və ya əqli qüsur, cinsi əlaqə (cins, cinsiyyət, cinsiyyət
+			ifadə, hamiləlik və ya doğum və onunla bağlı tibbi vəziyyət), cinsi oriyentasiya, veteran və ya hərbi vəziyyət, genetik məlumatlar (o cümlədən ailə genetik məlumatları).</p>
+		<p>Toplanılıb: No</p>
+	</li>
+	<li>
+		<p><strong>D kateqoriyası: Kommersiya məlumatları.</strong></p>
+		<p>Nümunələr: Alınmış və ya nəzərə alınan məhsul və ya xidmətlərin qeydləri və tarixi.</p>
+		<p>Topladı: Bəli.</p>
+	</li>
+	<li>
+		<p><strong>E kateqoriyası: Biometrik məlumatlar.</strong></p>
+		<p>Nümunələr: Genetik, fizioloji, davranış və bioloji xarakterli, yaxud şablon və ya digər identifikser və ya məlumatların müəyyənləşdirilməsi üçün istifadə olunan fəaliyyət formaları, məsələn, barmaq izləri, üz cizgiləri və səs izləri,
+			iris və ya retina scans, keystroke, gait, və ya digər fiziki formaları, və yuxu, sağlamlıq, və ya idman məlumat.</p>
+		<p>Toplanılıb: No</p>
+	</li>
+	<li>
+		<p><strong>F kateqoriyası: İnternet və ya digər oxşar şəbəkə fəaliyyəti.</strong></p>
+		<p>Nümunələr: Xidmətimizlə və ya reklamımızla qarşılıqlı əlaqə.</p>
+		<p>Topladı: Bəli.</p>
+	</li>
+	<li>
+		<p><strong>G kateqoriyası: Geolokasiya məlumatları.</strong></p>
+		<p>Nümunələr: Təxmini fiziki yerləşmə.</p>
+		<p>Toplanılıb: No</p>
+	</li>
+	<li>
+		<p><strong>H kateqoriyası: Duyğu məlumatları.</strong></p>
+		<p>Nümunələr: Audio, elektron, görüntülü, termik, olfactory və ya oxşar məlumatlar.</p>
+		<p>Toplanılıb: No</p>
+	</li>
+	<li>
+		<p><strong>I kateqoriya: Peşə və ya işlə bağlı məlumatlar.</strong></p>
+		<p>Nümunələr: Cari və ya keçmiş iş tarixi və ya performans qiymətləndirmələri.</p>
+		<p>Toplanılıb: No</p>
+	</li>
+	<li>
+		<p><strong>J kateqoriyası: Qeyri-kütləvi təhsil məlumatları (Ailə təhsili hüququ və məxfilik qanununa görə (20 ABŞ bölməsi 1232g, 34 C.F.R. Hissə 99).</strong></p>
+		<p>Misallar: Təhsil müəssisəsi və ya partiya tərəfindən onun adından hərəkət edən şagirdlə birbaşa bağlı təhsil sənədləri. Məsələn: qiymətlər, transkriptlər, sinif siyahıları, şagird cədvəlləri, şagirdlərin identifikasiya kodları, şagird
+			maliyyə məlumatları və ya tələbələrin intizam qaydaları.</p>
+		<p>Toplanılıb: No</p>
+	</li>
+	<li>
+		<p><strong>K kateqoriyası: Digər şəxsi məlumatlardan çəkilmiş inferensiyalar.</strong></p>
+		<p>Nümunələr: İnsanın üstünlüklərini, xüsusiyyətlərini, psixoloji meyllərini, meyllərini, meyllərini, davranışlarını, baxışlarını, zəkasını, qabiliyyətini və aplikalarını əks etdirən profil.</p>
+		<p>Toplanılıb: No</p>
+	</li>
+</ul>
+<p>CCPA-nın rəhbərliyi altında şəxsi məlumatlara aşağıdakılar daxil deyil:</p>
+<ul>
+	<li>Dövlət sənədlərindən ictimaiyyətə təqdim edilən məlumatlar</li>
+	<li>Deidentified və ya aqreqatlaşdırılmış istehlakçı məlumatları</li>
+	<li>CCPA-nın miqyasından kənarlaşdırılmış məlumatlar, məsələn:<ul>
+			<li>Sağlamlıq və ya tibbi məlumatlar 1996-cı il "Sağlamlıq sığortası üzrə portativlik və hesabatlılıq haqqında" Qanun (HİBAA) və "Tibbi informasiyanın Kaliforniya məxfiliyi haqqında" Qanun (CMIA) və ya klinik sınaq məlumatları</li>
+			<li>Müəyyən sektora xas olan məxfilik qanunları, o cümlədən Fair Credit Reporting Act (FRCA), Gramm-Leach-Bliley Act (GLBA) və ya California Financial Information Privacy Act (FIPA) tərəfindən əhatə olunan şəxsi məlumatlar, sürücünün
+				1994-cü il məxfiliyin qorunması haqqında qanun</li>
+		</ul>
+	</li>
+</ul>
+<h2>Şəxsi məlumatların mənbələri</h2>
+<p>Yuxarıda qeyd olunan şəxsi məlumatların kateqoriyalarını mənbələrin aşağıdakı kateqoriyalarından əldə edirik:</p>
+<ul>
+	<li>(Bu<strong>,) Sənin tərəfindən olan bir göstərişdir</strong>. Məsələn, Xidmətimizdə tamamladığınız formalardan, Xidmətimiz vasitəsilə ifadə etdiyiniz və ya təqdim etdiyiniz üstünlüklərdən, yaxud Da Bizim Xidmət üzrə Alış-verişinizdən.</li>
+	<li>(O<strong>, Allah tərəfindəndir)</strong>. Məsələn, Xidmətdə göstərdiyiniz fəaliyyətə diqqət yetirməkdən.</li>
+	<li><strong>Avtomatik olaraq Sizdən</strong>. Məsələn, Cookies vasitəsilə Biz və ya Xidmət Provayderlərimiz vasitəsilə Sizin Cihazınızda Xidmətimizdən keçərkən təyin edirik.</li>
+	<li>
+		<strong>Xidmət təminatçılarından</strong>. Məsələn, Xidmətimizin istifadəsinə nəzarət etmək və təhlil etmək üçün üçüncü tərəf satıcılar, Üçüncü tərəf satıcıları Bizim Xidmətimizdə reklam təqdim etmək üçün, üçüncü tərəf satıcılar məqsədli reklam çatdırmaq üçün
+		Sizə, ödəniş işlənməsi üçün üçüncü tərəf satıcılarına və ya Sizə Xidmət göstərmək üçün istifadə etdiyimiz digər üçüncü tərəf satıcılarına.</li>
+</ul>
+<h2>Şəxsi məlumatların biznes məqsədləri və ya kommersiya məqsədləri üçün istifadəsi</h2>
+<p>Biz "biznes məqsədləri" və ya "kommersiya məqsədləri üçün" topladığımız şəxsi məlumatlardan (CCPA çərçivəsində müəyyən olunduğu kimi) istifadə edə və ya açıqlaya bilərik. Bu məlumatlara aşağıdakı misallar daxil ola bilər:</p>
+<ul>
+	<li>Xidmətimizi işə salmaq və Sizə Xidmətimizi təqdim etmək.</li>
+	<li>Sizə dəstək vermək və Sizin sorğularınıza cavab vermək, o cümlədən Sizin narahatçılığınızı araşdırmaq və aradan qaldırmaq və Xidmətimizə nəzarət etmək və təkmilləşdirmək.</li>
+	<li>Məlumatı təqdim etmə səbəbinizi yerinə yetirmək və ya tanış etmək üçün. Məsələn, Sizin əlaqə məlumatlarınızı paylaşsanız, Bizim Xidmətimizlə bağlı sual soruşsanız, Biz həmin şəxsi məlumatlardan istifadə edərək Sizin sorğunuza cavab verəcəyik. Əgər təmin edirsinizsə
+		Sizin şəxsi məlumat bir məhsul və ya xidmət almaq üçün, Biz sizin ödəniş və çatdırılması asanlaşdırmaq üçün həmin məlumat istifadə edəcəyik.</li>
+	<li>Hüquq-mühafizə orqanlarının müraciətlərinə cavab vermək və tətbiq edilən qanun, məhkəmə qərarı və ya dövlət rüsumu tələb olunan qaydada.</li>
+	<li>Şəxsi məlumatlarınızı toplayarkən və ya CCPA-da başqa cür nəzərdə tutulanda Sizə təsvir edildiyi kimi.</li>
+	<li>Daxili inzibati və audit məqsədləri üçün.</li>
+	<li>Təhlükəsizlik hadisələrini aşkar etmək və zərərli, aldadıcı, fırıldaqçı və ya qeyri-qanuni fəaliyyətdən qorunmaq, o cümlədən, lazım gəldikdə, bu cür hərəkətlərə görə məsuliyyət daşıyan şəxsləri mühakimə etmək.</li>
+</ul>
+<p>Qeyd edək ki, yuxarıda gətirilən nümunələr əyanidir və yorucu olmaq üçün nəzərdə tutulmayıb. Bu məlumatlardan necə istifadə etdiyimiz barədə daha ətraflı məlumat üçün "Şəxsi məlumatlarınızın istifadəsi" bölməsinə müraciət edə bilərsiniz.</p>
+<p>Əgər biz şəxsi məlumatların əlavə kateqoriyalarını toplamaq və ya maddi cəhətdən fərqli, əlaqəsi olmayan və ya uyğun olmayan məqsədlər üçün topladığımız şəxsi məlumatları istifadə etmək qərarına gəlsək, bu Məxfilik Siyasətini yeniləyəcəyik.</p>
+<h2>Biznes məqsədləri üçün və ya kommersiya məqsədləri üçün şəxsi məlumatların açıqlanması</h2>
+<p>Biz biznes və ya kommersiya məqsədləri üçün şəxsi məlumatların aşağıdakı kateqoriyalarını istifadə edə və ya açıqlaya bilərik və son on iki (12) ayda istifadə edə və ya açıqlaya bilərik:</p>
+<ul>
+	<li>A kateqoriyası: Identifikatorlar</li>
+	<li>B kateqoriyası: Kaliforniya Müştəri Rekordları qanununda qeyd olunan şəxsi informasiya kateqoriyaları (Cal. Civ. Code § 1798.80(e))</li>
+	<li>D kateqoriya: Kommersiya məlumatları</li>
+	<li>F kateqoriyası: İnternet və ya digər oxşar şəbəkə fəaliyyəti</li>
+</ul>
+<p>Nəzərinizə çatdıraq ki, yuxarıda qeyd olunan kateqoriyalar CCPA-da müəyyən edilmiş kateqoriyalardır. Bu o demək deyil ki, həmin kateqoriyalı şəxsi məlumatların bütün nümunələri faktiki olaraq açıqlansa da, bizim yaxşı imanımızı ən yaxşı şəkildə əks etdirir
+	tətbiq edilən kateqoriyadan olan həmin məlumatların bəzilərinin ola biləcəyini və ola bilsin ki, açıqlandığını bilər.</p>
+<p>Biz şəxsi məlumatları biznes məqsədi və ya kommersiya məqsədi ilə açıqlayarkən, məqsədi təsvir edən və alıcıdan həmin şəxsi məlumatları həm məxfi saxlamalı, həm də heç bir məqsədlə istifadə etməməyi tələb edən müqavilə daxil edirik
+	müqaviləni yerinə yetirməkdən başqa məqsəd.</p>
+
+<h2>Şəxsi məlumatların paylaşılması</h2>
+<p>Yuxarıdakı kateqoriyalarda müəyyən edilmiş Şəxsi məlumatlarınızı üçüncü tərəflərin aşağıdakı kateqoriyaları ilə paylaşa bilərik:</p>
+<ul>
+	<li>Xidmət Təminatçıları</li>
+	<li>Ödəniş prosessorları</li>
+	<li>Filiallarımız</li>
+	<li>Biznes tərəfdaşlarımız</li>
+	<li>Üçüncü tərəf satıcıları Siz və ya Sizin agentlər Bizə icazə verir ki, Sizin şəxsi məlumatlarınızı sizə təqdim etdiyimiz məhsullar və ya xidmətlər ilə əlaqədar</li>
+</ul>
+
+<h2>CCPA-nın nəzdindəki Hüquqlarınız</h2>
+<p>CCPA Kaliforniya sakinlərini şəxsi məlumatları ilə bağlı konkret hüquqlarla təmin edir. Əgər Siz Kaliforniya sakinisinizsə, Aşağıdakı hüquqlarınız var:</p>
+<ul>
+	<li><strong>Diqqət etmək hüququ.</strong> Şəxsi Məlumatların hansı kateqoriyalarının toplandığı və "Şəxsi məlumatlar"ın hansı məqsədlər üçün istifadə edildiyi barədə məlumat almaq hüququnuz var.</li>
+	<li>
+		<strong>İstəmək hüququ.</strong> CCPA-nın rəhbərliyi altında Siz xahiş etmək hüququna maliksiniz ki, Biz Sizə bizim kolleksiya, istifadə, satış, biznes məqsədləri üçün açıqlama və şəxsi məlumatların payı haqqında məlumat açıqlayırıq. Bir dəfə Biz
+		(Ya Rəsulum!) Sən öz xahişini qəbul et və (haqqı) təsdiqlə. Biz sənə xəbər edəcəyik ki,<ul>
+			<li>Şəxsi məlumatların kateqoriyaları Biz Sizin haqqınızda topladıq</li>
+			<li>Sizin haqqınızda topladığımız şəxsi məlumatlar üçün mənbələrin kateqoriyaları</li>
+			<li>Bizim biznes və ya kommersiya məqsədi həmin şəxsi məlumatların toplanması və ya satışı</li>
+			<li>Həmin şəxsi məlumatları paylaşdığımız üçüncü şəxslərin kateqoriyaları</li>
+			<li>Sizin haqqınızda topladığımız şəxsi məlumatların konkret parçaları</li>
+			<li>Əgər sizin şəxsi məlumatlarınızı satsaq və ya sizin şəxsi məlumatlarınızı biznes məqsədi ilə açıqlasaq, Biz Sizə açıqlayacağıq:<ul>
+					<li>Şəxsi məlumat kateqoriyalarının kateqoriyaları satılır</li>
+					<li>Şəxsi məlumat kateqoriyalarının kateqoriyaları açıqlandı</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><strong>Şəxsi məlumatların satışına "yox" demək hüququ (opt-out).</strong> Sizin şəxsi məlumatlarınızı satmamaq üçün Bizi yönləndirmək hüququnuz var. Opt-out istəyini göndərmək üçün zəhmət olmasa Bizimlə əlaqə saxlayın.</li>
+	<li>
+		<strong>Şəxsi məlumatları silmək hüququ.</strong> Sizin şəxsi məlumatlarınızın silinməsini xahiş etmək hüququnuz var, müəyyən istisnalara tabe olun. Biz Sizin xahişinizi alıb təsdiq etdikdən sonra biz siləcəyik (və Xidmətimizə istiqamət
+		Providers to delete) Şəxsi məlumatlarınızı bizim qeydlərimizdən, istisna tətbiq etmədikcə. Biz və ya Xidmət Təminatçıları üçün lazım olan məlumatları saxlamaq üçün sizin silinmə xahişinizi inkar edə bilərik:<ul>
+			<li>Şəxsi məlumatları topladığımız əməliyyatı başa çatdırın, xahiş etdiyiniz yaxşı və ya xidmət təqdim edin, Sizinlə davam edən işgüzar münasibətlərimiz kontekstində ağlabatən gözlənilən hərəkətləri edin və ya
+				əks halda Sizinlə olan müqaviləmizi icra edin.</li>
+			<li>Təhlükəsizlik hadisələrini aşkar etmək, zərərli, aldadıcı, fırıldaqçı və ya qeyri-qanuni fəaliyyətdən qorunmaq və ya bu kimi hərəkətlərə görə məsuliyyət daşıyan şəxsləri mühakimə etmək.</li>
+			<li>Mövcud məqsədyönlü funksionallığı zəiflədən səhvləri müəyyən etmək və bərpa etmək üçün debug məhsulları.</li>
+			<li>Nitq azadlığından istifadə etmək, digər istehlakçının öz azad söz hüququndan istifadə etmək hüququnu təmin etmək və ya qanunla təmin edilmiş başqa hüquqdan istifadə etmək.</li>
+			<li>Kaliforniya Elektron Rabitə Məxfilik Qanununa (Cal. Penal Code § 1546 et. seq.) əməl edin.</li>
+			<li>İctimai və ya yaşıdların nəzərdən keçirdiyi elmi, tarixi, yaxud statistik tədqiqatla bütün digər tətbiq edilən etika və məxfilik qanunlarına riayət edən ictimai maraqlara aid olun. Bu zaman məlumatların silinməsi ehtimal ki, render edə bilər
+				mümkün deyil və ya ciddi şəkildə tədqiqat nailiyyətlərinə mane olur, əgər siz əvvəlcədən məlumatlı razılıq təmin etmişdiniz.</li>
+			<li>Bizimlə olan münasibətinizə əsaslanaraq istehlakçıların gözləntilərinə kifayət qədər uyğun olan yalnız daxili istifadəni təmin edin.</li>
+			<li>Hüquqi öhdəliyi yerinə yetirmək.</li>
+			<li>O məlumatların digər daxili və qanuni istifadəsini təmin etdiyiniz kontekstə uyğun edin.</li>
+		</ul>
+	</li>
+	<li>
+		<strong>Ayrı-seçkiliyə yol verilməmək hüququ.</strong> Sizin istehlakçınızın hər hansı hüququnu həyata keçirdiyinə görə ayrı-seçkiliyə yol verilməmək hüququnuz var. O cümlədən:<ul>
+			<li>Sizə mal və ya xidmətlərin rədd edilməsi</li>
+			<li>Malların və ya xidmətlərin müxtəlif qiymət və ya qiymətlərinin ödənilməsi, o cümlədən endirim və ya digər mənfəətdən istifadə edilməsi və ya cəzaların təyin edilməsi</li>
+			<li>Sizə müxtəlif səviyyəli və ya keyfiyyətli mal və ya xidmətlərin göstərilməsi</li>
+			<li>Mal və ya xidmətlərə görə fərqli qiymət və ya qiymət alacağını və ya malların və ya xidmətlərin fərqli səviyyədə və ya keyfiyyətli olacağını təklif etmək</li>
+		</ul>
+	</li>
+</ul>
+<h2>CCPA Məlumatların Qorunması Hüquqlarınızdan Istifadə Etmək</h2>
+<p>CCPA-nın rəhbərliyi altında hər hansı bir hüququnuzu həyata keçirmək üçün. Əgər Siz Kaliforniya sakinisinizsə, Bizimlə əlaqə saxlaya bilərsiniz:</p>
+<ul>
+	<li>
+		<p>E-poçt vasitəsilə: indo@site.com</p>
+	</li>
+</ul>
+<p>Yalnız Siz, və ya Sizin adından hərəkət etmək səlahiyyətiniz olan Kaliforniya dövlət katibi ilə qeydiyyatdan keçən şəxs Sizin şəxsi məlumatlarınızla bağlı doğrulmaz xahiş edə bilər.</p>
+<p>Bizə müraciətiniz mütləq:</p>
+<ul>
+	<li>Kifayət qədər məlumat təqdim edin ki, biz kifayət qədər təsdiq edək Siz şəxsi məlumat topladığımız şəxs və ya səlahiyyətli nümayəndə</li>
+	<li>İstəyinizi kifayət qədər detalla təsvir edin. Bu bizə düzgün başa düşməyə, qiymətləndirməyə və ona cavab verməyə imkan verir</li>
+</ul>
+<p>Biz Sizin xahişinizə cavab verə bilmərik və ya tələb olunan məlumatları Sizə verə bilmərik. Əgər biz edə bilmiriksə:</p>
+<ul>
+	<li>Xahişinizi yerinə yetirməniz üçün kimliyinizi və ya səlahiyyətinizi yoxlayın</li>
+	<li>Və təsdiq edin ki, şəxsi məlumatlar Sizə aiddir</li>
+</ul>
+<p>Tələb olunan məlumatları Sizin doğrulanmış xahişinizi aldıqdan sonra 45 gün ərzində pulsuz açıqlayacaq və çatdıracağıq. Tələb olunan məlumatları təqdim etmək üçün vaxt müddəti ağlabatan olduqda əlavə 45 gün ərzində bir dəfə uzadıla bilər
+	lazımlı və əvvəlcədən xəbər vermədən.</p>
+<p>Təqdim etdiyimiz hər bir açıqlama yalnız doğrulanmış istəyin qəbulundan əvvəlki 12 aylıq müddəti əhatə edəcək.</p>
+<p>Məlumatların portativlik istəkləri üçün, Asanlıqla istifadə edilə bilən və bir orqandan gələn məlumatları maneəsiz başqa bir varlığa ötürməyə icazə verməli olan Sizin şəxsi məlumatlarınızı təqdim etmək üçün bir format seçəcəyik.</p>
+<h1>Sizin Kaliforniya Məxfilik Hüquqları (California's Shine the Light qanunu)</h1>
+<p>California Civil Code Section 1798 (California's Shine the Light qanunu) altında bizimlə qurulmuş işgüzar əlaqəsi olan Kaliforniya sakinləri ildə bir dəfə öz Şəxsi Məlumatlarını üçüncü şəxslərlə bölüşmək haqqında məlumat istəyə bilərlər
+	üçüncü tərəflərin birbaşa marketinq məqsədləri üçün.</p>
+<p>Əgər siz Kaliforniya Shine the Light qanunu altında daha çox məlumat almaq istəyirsinizsə və əgər Siz Kaliforniya sakinisinizsə, aşağıda verilmiş əlaqə məlumatlarını istifadə edərək Bizimlə əlaqə saxlaya bilərsiniz.</p>
+<h1>Kiçik istifadəçilər üçün Kaliforniya Məxfilik Hüququ (California Business and Professions Code Section 22581)</h1>
+<p>Kaliforniya Biznes və Peşələr Kodu bölməsi 22581 onlayn saytların, xidmətlərin və ya müraciətlərin qeydiyyatlı istifadəçiləri olan 18 yaşına qədər Kaliforniya sakinlərinə malik olduqları kontent və ya məlumatların silinməsini xahiş etməyə və əldə etməyə imkan verir
+	açıq şəkildə yerləşdirilmişdir.</p>
+<p>Belə məlumatların çıxarılmasını xahiş etmək üçün. Əgər Siz Kaliforniya sakinisinizsə, aşağıda verilmiş əlaqə məlumatlarını istifadə edərək Bizimlə əlaqə saxlaya bilərsiniz. Hesabınızla əlaqəli olan e-poçt ünvanını daxil edə bilərsiniz.</p>
+<p>Nəzərə alın ki, Sizin xahişiniz İnternetdə yerləşdirilmiş məzmunun və ya məlumatların tam və ya hərtərəfli aradan qaldırılmasına zəmanət vermir və qanunla müəyyən hallarda aradan qaldırılmasına icazə və tələb oluna bilməz.</p>
+<h1>Digər Veb saytlara linklər</h1>
+<p>Bizim Xidmət Bizdə fəaliyyət göstərməyən digər saytlara linklər ola bilər. Üçüncü tərəf linkinə bassanız, Həmin üçüncü tərəfin saytına yönələcəksiniz. Biz Sizə ciddi məsləhət görürük ki, hər bir saytın Məxfilik Siyasətini nəzərdən keçirəsiniz Siz
+	ziyarət etmək.</p>
+<p>Biz heç bir nəzarət və hər hansı üçüncü tərəf sites və ya xidmətlərin məzmun, gizlilik siyasəti və ya praktikası üçün heç bir məsuliyyət öz üzərinə götürür.</p>
+<h1>Bu Gizlilik Siyasətində dəyişikliklər</h1>
+<p>Məxfilik Siyasətimizi vaxtaşırı yeniləyə bilərik. Yeni Gizlilik Siyasətini bu səhifədə yerləşdirərək hər hansı dəyişiklik barədə Sizə xəbər edəcəyik.</p>
+<p>Biz Sizə e-poçt və/və ya Bizim Xidmət haqqında tanınmış bildiriş vasitəsilə bildirəcəyik. Dəyişiklik effektiv olmazdan əvvəl və bu Gizlilik Siyasətinin başında "Son yenilənən" tarixi yeniləyəcək.</p>
+<p>Hər hansı bir dəyişiklik üçün bu Gizlilik Siyasətini periodik olaraq nəzərdən keçirmək məsləhət görülür. Bu Məxfilik Siyasətinə edilən dəyişikliklər bu səhifədə yerləşdirildikdə effektivdir.</p>
+<h1>Bu Məxfilik Siyasəti Haqqında</h1>
+
+<h1>Bizimlə əlaqə saxlayın</h1>
+<p>Bu Məxfilik Siyasəti ilə bağlı hər hansı bir sualınız varsa, bizimlə əlaqə saxlaya bilərsiniz:</p>
+<ul>
+	<li>
+		<p>E-poçt vasitəsilə: indo@site.com</p>
+	</li>
+</ul>
+
+</div>
+    </div>
+</div>
+
+
+
+    <section class="footer">
+      <div class="container">
+        <div class="row row-box-lg">
+          <div class="col-12 col-lg-4 pt-2 pb-2">
+            <div class="footer-logo-wr">
+              <a href="./" class="footer-logo">
+                <div class="footer-logo-img">
+                  <img src="corporate-logo.svg" alt="logo" />
+                </div>
+                <h2 class="footer-logo-text m-0">Envog</h2>
+              </a>
+              
+              <div class="footer-contact">
+                <a class="footer-contact-item" href="mailto:indo@site.com">indo@site.com</a>
+                <a class="footer-contact-item" href="tel:+994559119113" >+994559119113</a>
+                <a class="footer-contact-item" href="https://wa.me/+994559119113">whatsapp</a>
+              </div>
+              
+            </div>
+          </div>
+
+          <hr class="footer-delimeter" />
+
+          <div class="col-12 col-lg-4 pt-2 pb-2">
+            <div class="footer-link-wr">
+              <div class="footer-link-list">
+                
+                <div class="footer-link-item">
+                  <a class="footer-link" href="spa-services.html">Spa Xidmətləri</a>
+                </div>
+                 
+                <div class="footer-link-item">
+                  <a class="footer-link" href="bridal-salon.html">Bridal Salon</a>
+                </div>
+                 
+                <div class="footer-link-item">
+                  <a class="footer-link" href="wedding-hairstyles.html">Toy Saç düzümləri</a>
+                </div>
+                 
+                <div class="footer-link-item">
+                  <a class="footer-link" href="beauty-salon.html">Gözəllik Salonu</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <hr class="footer-delimeter" />
+
+          <div class="col-12 col-lg-4 pt-2 pb-2">
+            <div class="shh">
+              <div class="footer-privacy-wr">
+                <div class="footer-privacy">
+                  <a class="" href="userPrivacy.html">Gizlilik siyasəti</a>
+                </div>
+                <div class="footer-privacy">
+                  <a class="" href="service-terms.html">Termin və şərtlər</a>
+                </div>
+                <div class="footer-privacy">
+                  <a class="" href="general-disclaimer.html">Disclaimerlər</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="delimeter" />
+
+        <div class="copyright">
+          <div>Copyright</div>
+          <div>&#169;</div>
+          <div class="current-year"></div>
+          <div>Envog</div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function updateBlock() {
+        const yearCopyElement = document.querySelector(".current-year");
+        const currentYear = getCurrentYear();
+        yearCopyElement.innerText = currentYear;
+      }
+      function getCurrentYear() {
+        return new Date().getFullYear();
+      }
+      updateBlock();
+    </script>
+     
+
+</body>
+</html>

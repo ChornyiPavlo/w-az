@@ -1,0 +1,174 @@
+.button-1 {
+  appearance: none;
+  background-color: #00d690;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-1:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-1:hover {
+  background-color: #00d690;
+}
+
+.button-1:focus {
+  box-shadow: rgba(46, 164, 113, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-2 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #00e9fa;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #0fcedc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-2:hover {
+  transform: translateY(-1px);
+}
+
+.button-3 {
+  background-color: #0026ff;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-3:not(:disabled):hover,
+.button-3:not(:disabled):focus {
+  outline: 0;
+  background: #1f2bd4;
+  color: aliceblue;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button-4 {
+  color: #FFFFFF;
+  border-style: solid;
+  border-color: #666;
+  border-radius: 50px 50px 50px 50px;
+  padding: 10px 45px 10px 45px;
+  font-family: "Quicksand", Sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: none;
+  background-color: #16563f;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  outline: none;
+  position: relative;
+  transition: all .3s ease-out;
+  z-index: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.button-4:hover {
+  background-color: #17543E;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+.button-5 {
+  display: inline-block;
+  background-color: #81d8fd;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(66, 71, 72, 0.5) 0 -1px 3px 0 inset,
+    rgba(0, 44, 97, 0.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button-5:hover {
+  background-color: #82a9d6;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}

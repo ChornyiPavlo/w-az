@@ -1,0 +1,683 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="visual_styles/animations/jquery-3.7.1.min.js"></script>
+    <title>Envog | Xidmət şərtləri</title>
+    <meta property="og:title" content="Envog | Xidmət şərtləri" />
+    <meta property="og:image" content="corporate-logo.svg" />
+    <meta name="twitter:title" content="Envog | Xidmət şərtləri" />
+    <meta name="twitter:description" content="Envog | Xidmət şərtləri" />
+    <meta name="twitter:image:src" content="corporate-logo.svg" />
+    
+    <meta property="og:description" content="Envog | Xidmət şərtləri" />
+    <meta name="description" content="Envog | Xidmət şərtləri" />
+    <link rel="stylesheet" href="visual_styles/screen/bootstrap.min.css" />
+    <link rel="stylesheet" href="visual_styles/screen/icons.css" />
+    <link rel="stylesheet" href="visual_styles/screen/buttons.css" />
+
+    <script src="visual_styles/animations/bootstrap.bundle.min.js"></script>
+
+    
+
+    <link rel="shortcut icon" href="corporate-logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="app.css" />
+
+    <style>
+
+      
+    </style>
+    
+  </head>
+
+  <body>
+    <script>
+      $(document).ready(function () {
+        if ($('.art-wr').css('flex-direction') == 'row') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'row-reverse') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column-reverse') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column-reverse') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+      });
+
+      window.addEventListener('resize', function () {
+        if ($('.art-wr').css('flex-direction') == 'row') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'row-reverse') {
+          $('.art-box').css({ height: '600px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-wr').css('flex-direction') == 'column-reverse') {
+          $('.art-box').css({ height: '400px' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'column-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.art-row-second').css('flex-direction') == 'row-reverse') {
+          $('.art-row-second>.col-lg-6').css({ width: '50%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+        if ($('.au-row').css('flex-direction') == 'column-reverse') {
+          $('.au-row>.col-lg-6').css({ width: '100%' });
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        if ($('body').css('direction') == 'ltr') {
+          $('.dropdown-menu').css({
+            right: 0,
+            left: 'auto',
+            'text-align': 'end',
+          });
+        }
+        if ($('body').css('direction') == 'rtl') {
+          $('.dropdown-menu').css({
+            left: 0,
+            right: 'auto',
+            'text-align': 'end',
+          });
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        if ($('.benefit-section').css('display') == 'block') {
+          $('.au-section').css({ display: 'none' });
+        }
+        if ($('.benefit-section').css('display') == 'none') {
+          $('.au-section').css({ display: 'block' });
+        }
+        if ($('.art-block').css('display') == 'none') {
+          $('.art-block-second').css({ display: 'block' });
+        }
+        if ($('.art-block').css('display') == 'block') {
+          $('.art-block-second').css({ display: 'none' });
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        if ($('.section').hasClass('form-section')) {
+          $('.partners').css({ display: 'block' });
+          $('.qa').css({ display: 'none' });
+          $('.comments').css({ display: 'none' });
+        } else {
+          $('.partners').css({ display: 'none' });
+          $('.qa').css({ display: 'block' });
+          $('.comments').css({ display: 'block' });
+        }
+      });
+    </script>
+
+    <div class="hero-bg">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+          <a href="./" class="header-logo">
+            <div class="header-logo-img">
+              <img src="corporate-logo.svg" alt="logo" />
+            </div>
+            <h2 class="logo-text m-0">Envog</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-three-dots"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+              />
+            </svg>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button type="button" class="of-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item" id="nav-item">
+                  <a class="nav-link" href="./">Ana səhifə</a>
+                </li>
+                <li class="nav-item dropdown" id="nav-item">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Xidmətlər
+                  </a>
+                  <ul class="dropdown-menu">
+                    
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="spa-services.html">Spa Xidmətləri</a>
+                    </li>
+                     
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="bridal-salon.html">Bridal Salon</a>
+                    </li>
+                     
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="wedding-hairstyles.html">Toy Saç düzümləri</a>
+                    </li>
+                     
+                    <li class="dropdown-item">
+                      <a class="drop-link" href="beauty-salon.html">Gözəllik Salonu</a>
+                    </li>
+                    
+                  </ul>
+                </li>
+                <li class="nav-item" id="nav-item">
+                  <a class="nav-link" href="about-us.html">Biz kimik</a>
+                </li>
+                <li class="nav-item" id="nav-item">
+                  <a class="nav-link" href="speak-to-us.html">Bizimlə əlaqə saxlayın</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+
+</div>
+<div class='section' style='word-break: break-all;'>
+    <div class="container">
+        <h1>Envog | Xidmət şərtləri</h1>
+        <div style='overflow: hidden;'><h3>HÜQUQ ŞƏRTİNƏ MÜDAİLƏ EDİLƏ</h3>
+
+<p>Biz ( Veb-sayt 'Firma', 'biz', 'biz', və ya 'bizim' ) .</p>
+
+<p>Biz veb-saytı Veb-sayt ('Sayt''), eləcə də bu hüquqi terminlərə istinad edən və ya əlaqələndirən digər məhsul və xidmətləri ('Hüquqi terminlər'' (kollektiv şəkildə, ''Xidmətlər'') fəaliyyət göstəririk.</p>
+
+<p>__________</p>
+
+<p>Bizimlə indo@site.com elektron poçtu ilə və ya poçtla  Sadigjan Street, Apartment 4A, Bakı 1121, Azerbaijan ünvanına müraciət edə bilərsiniz.</p>
+
+<p>Bu Hüquqi Şərtlər sizin istər şəxsən, istərsə də bir orqanın adından ('siz') və , Xidmətlərə daxil olmaq və Veb-saytistifadə etməyinizlə bağlı sizin aranızda bağlanmış qanunvericiliklə nəzərdə tutulmuş müqaviləni təşkil edir. Siz razılaşırsınız ki, Xidmətlərə daxil olaraq bütün bu Hüquqi Terminlərə bağlı olduğunuzu, başa düşdüyünüz və razılaşdırdığınızı göstərirsiniz. ƏGƏR BÜTÜN BU HÜQUQI ŞƏRTLƏRLƏ RAZı DEYILSINIZSƏ, O ZAMAN XIDMƏTLƏRDƏN ISTIFADƏ ETMƏK SIZƏ AÇıQ-AÇıQ QADAĞANDıR VƏ SIZ DƏRHAL ISTIFADƏNI DAYANDıRMALıSıNıZ.</p>
+
+<p>Sizə istifadə etdiyiniz Xidmətlərə hər hansı planlaşdırılmış dəyişikliklər barədə əvvəlcədən məlumat verəcəyik. Dəyişdirilmiş Hüquqi Terminlər, e-poçt mesajında deyildiyi kimi , indo@site.com tərəfindən sizə göndərilən və ya xəbər verildikdə effektiv olacaq. Hər hansı bir dəyişikliyin effektiv tarixindən sonra Xidmətlərdən istifadəni davam etdirməklə, siz dəyişdirilən şərtlərlə bağlı olmağa razısınız.</p>
+
+<p>Qeydlərinizə görə bu Hüquqi Şərtlərin surətini çap etməyinizi tövsiyə edirik.</p>
+
+<h3>MƏZMUN CƏDVƏLI</h3>
+
+<div style="display: flex; flex-direction: column; gap: 4px;">
+    <a href="#services">1. BIZIM XİdMƏTLƏR</a><a href="#ip">2. ƏQLI MÜLKIYYƏT HÜQUQU</a><a href="#userreps">3. İSTIFADƏÇI TƏMSILLƏRI</a><a href="#userreg">4. İSTIFADƏÇI QEYDIYYATı</a><a href="#products">5. 6</a><a href="#purchases">. ALıŞ-VERIŞ VƏ ÖDƏNIŞ</a><a href="#returnyes">7. RETURN/REFUNDS POLICY</a><a href="#software">8. YAZI</a><a href="#prohibited">9. QADAĞAN OLUNMUŞ FƏALIYYƏTLƏR</a><a href="#ugc">10. İSTIFADƏÇI 11 IANƏLƏR YARATDı</a><a href="#license">. </a><a href="#reviews">12. 13-CÜ MÜZAKIRƏ ÜÇÜN GÖSTƏRIŞLƏR</a><a href="#socialmedia">. </a><a href="#thirdparty">14. ÜÇÜNCÜ TƏRƏF VEB-SAYT VƏ MƏZMUN</a><a href="#sitemanage">15. 16. XIDMƏTLƏRIN IDARƏ EDILMƏSI</a><a href="#ppyes">. </a><a href="#dmca">17.17. DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA) BILDIRIŞI VƏ SIYASƏTI</a><a href="#terms">18. </a><a href="#modifications">19.19. 20.20-CI MADDƏLƏRDƏ DƏYIŞIKLIKLƏR VƏ FASILƏLƏR</a><a href="#law">. </a> 21. BƏLƏDIYYƏ QANUNU<a href="#disputes">. </a><a href="#corrections">22.22. </a><a href="#disclaimer">23. 24</a><a href="#liability">. MƏSİLIYYƏTIN MƏHDUDLAŞDıRıLMASı</a><a href="#indemnification">25. </a><a href="#userdata">26. İSTIFADƏÇI DATA</a><a href="#electronic">27. ELEKTRON QAIMƏ-FAKTURA, TRANZAKSIYA VƏ IMZA</a><a href="#california">28. KALIFORNIYA ISTIFADƏÇILƏRI VƏ REZIDENTLƏRI</a><a href="#misc">29. 30</a><a href="#contact">. BIZIMLƏ ƏLAQƏ SAXLAYıN</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+<br>
+
+<h3 id="services">1. XİdMƏTLƏRIMIZ</h3>
+
+<p>Xidmətlərdən istifadə zamanı verilən məlumatlar bu cür paylanmanın və ya istifadənin qanuna və ya nizamnaməyə zidd olacağı və ya bu cür səlahiyyət və ya ölkə daxilində bizi hər hansı bir qeydiyyat tələbinə məruz edəcək hər hansı bir səlahiyyətli orqan və ya qurum tərəfindən paylanmaq və ya istifadə etmək üçün nəzərdə tutulmayıb. Buna müvafiq olaraq, digər yerlərdən Xidmətlərə daxil olmağı seçən həmin şəxslər bunu öz təşəbbüsü ilə edir və yerli qanunlara, əgər və dərəcədə yerli qanunlara riayət edilməsinə görə yalnız məsuliyyət daşıyırlar.</p>
+
+<p>Xidmətlər sənaye xarakterli normativlərə (Sağlamlıq sığortası üzrə portativlik və hesabatlılıq haqqında qanun (HİBAA), Federal İnformasiya Təhlükəsizliyinin İdarə Edilməsi Qanunu (FİSMA) və s.) uyğun gəlmir. Buna görə də əgər sizin qarşılıqlı fəaliyyətləriniz belə qanunlara tabe olacaqsa, Xidmətlərdən istifadə etməyə bilərsiniz. Siz Gramm-Leach-Bliley Qanununu (GLBA) pozacaq şəkildə Xidmətlərdən istifadə etməyə bilərsiniz.</p>
+
+<h3 id="ip">2. ƏQLI MÜLKIYYƏT HÜQUQU</h3>
+
+<p>İntellektual mülkiyyətimiz</p>
+
+<p>Biz Xidmətlərimizdəki bütün əqli mülkiyyət hüquqlarının sahibi və ya lisenziyasıyıq. Bütün mənbə kodu, məlumat bazaları, funksionallıq, proqram təminatı, veb-sayt dizaynları, audio, video, mətn, şəkil və qrafiklər Xidmətlərdə (kollektiv olaraq, 'Məzmun'), həmçinin orada olan nişanlar, xidmət nişanları və loqolar ('Marks').</p>
+
+<p>Bizim Məzmun və Marks abş və bütün dünyada müəlliflik hüququ və ticarət nişanı qanunları (və müxtəlif əqli mülkiyyət hüquqları və haqsız rəqabət qanunları) və müqavilələr ilə qorunur.</p>
+
+<p>Məzmun və Marks şəxsi, qeyri-kommersiya istifadə və ya daxili biznes məqsədiniz üçün 'AS IS' Xidmətlərində və ya vasitəsilə təmin edilir.</p>
+
+<p>Xidmətlərimizdən istifadəniz</p>
+
+<p>Bu Hüquqi Şərtlərə, o cümlədən aşağıda 'QADAĞAN OLUNMUŞ FƏALIYYƏTLƏR' bölməsinə riayət etməyinizə tabe olaraq, sizə qeyri-ixtisas, daşınmaz, ləğv edilmiş lisenziyanı veririk:
+Xidmətlərə daxil olmaq; və
+məzmunun düzgün əldə etdiyiniz hissəsinin surətini yükləyin və ya çap edin.
+yalnız şəxsi, qeyri-kommersiya istifadə və ya daxili iş məqsədi üçün.</p>
+
+<p>Bu bölmədə və ya Hüquqi Şərtlərimizin digər yerlərində nəzərdə tutulmuş hallar istisna olmaqla, xidmətlərin heç bir hissəsi və heç bir Məzmun və ya Markın surəti, surəti, surəti, surəti, surəti, yenidən nəşri, yüklənməsi, yerləşdirilməsi, ictimaiyyət qarşısında göstərilməsi, kodlaşdırılması, tərcümə edilməsi, ötürülməsi, yayılması, satılması, lisenziyalaşdırılması və ya hər hansı bir kommersiya məqsədi ilə, əvvəlcədən ifadə edilmiş yazılı icazəmiz olmadan istismara verilməsi mümkün deyil.</p>
+
+<p>Əgər Siz bu bölmədə və ya Bizim Hüquqi Şərtlərin digər yerlərində nəzərdə tutulandan başqa Xidmət, Məzmun və ya Marklardan hər hansı bir istifadə etmək istəyirsinizsə, xahişinizi ünvanlayın: indo@site.com. Əgər biz nə vaxtsa sizə xidmətlərimizin və ya Məzmunumuzun hər hansı bir hissəsini yerləşdirmək, təkrar istehsal etmək və ya açıq şəkildə nümayiş etdirmək üçün icazə versək, siz bizi Xidmətlərin, Məzmunun və ya Marksın sahibləri və ya lisenziyaçıları kimi tanıtmalı və hər hansı bir müəlliflik və ya proporsional bildirişin yerləşdirilməsində, çoxaldığı və ya bizim Məzmunumuzun göstərilməsində görünməsini təmin etməlisiniz.</p>
+
+<p>Biz sizə və Xidmətlərə, Məzmunlara və Markslara verilən bütün hüquqların hamısını özündə saxlayırıq.</p>
+
+<p>Bu Əqli Mülkiyyət Hüquqlarının hər hansı bir pozulması Hüquqi Şərtlərimizin maddi pozuntusunu təşkil edəcək və Bizim Xidmətlərdən istifadə hüququnuz dərhal sona çatacaq.</p>
+
+<p>Sizin təqdimatlarınız və töhfələriniz</p>
+
+<p>Xidmətlərimizi istifadə etməzdən əvvəl bu bölməni və 'QADAĞAN OLUNMUŞ FƏALIYYƏTLƏR' bölməsini diqqətlə nəzərdən keçirərək bizə verdiyiniz (a) hüquqları və b) Xidmətlər vasitəsilə hər hansı bir məzmunu yerləşdirəndə və ya yükləyərkən malik olduğunuz öhdəlikləri başa düşməyinizi xahiş edirik.</p>
+
+<p>Təqdimatlar: Xidmətlər haqqında hər hansı bir sual, şərh, təklif, fikir, rəy və ya digər məlumatları birbaşa göndərməklə ('Təqdimatlar') siz bu cür Təqdimatda bizə bütün əqli mülkiyyət hüquqlarını təyin etməyə razısınız. Siz razılaşırsınız ki, biz bu Tabeliyə sahib olacağıq və sizə heç bir etiraf və ya kompensasiya olmadan hər hansı bir qanuni məqsəd üçün onun məhdudiyyətsiz istifadəsinə və yayılmasına haqqımız olacaq.</p>
+
+<p>Töhfələr: Xidmətlər sizi söhbət etməyə, töhfə verməyə və ya bloqlarda, mesaj lövhələrində, onlayn forumlarda və digər funksionallıqlarda iştirak etməyə dəvət edə bilər. Bu müddət ərzində siz yarada, göndərə, yerləşdirə, nümayiş etdirə, ötürə, nəşr edə, paylaya və ya bizə və ya Xidmətlər vasitəsilə məzmun və materiallar yayımlaya bilər, o cümlədən, yalnız mətn, yazı, video, audio, foto, musiqi, qrafika, şərhlərlə məhdudlaşmır,  təkrar, reytinq təklifləri, şəxsi məlumatlar və ya digər material ('Töhfələr'). Bu zaman hər hansı bir yazı da bir töhfə kimi qəbul edilir.</p>
+
+<p>Siz başa düşürsünüz ki, Töhfələr Xidmətlərin digər istifadəçiləri və ehtimal ki, üçüncü tərəf saytları vasitəsilə baxıla bilər.</p>
+
+<p>Siz Töhfələr yerləşdirərkən bizə lisenziya (o cümlədən öz adınızdan, ticarət nişanlarından istifadə, və logos: Hər hansı Bir Töhfələri yerləşdirməklə bizə məhdudiyyətsiz, məhdudiyyətsiz, məhdudiyyətsiz, qaytarılmayan, əbədi, aksizli, təhvil verilməz, təhvil, royalsız, tam ödənişli, ümumdünya hüququ və lisenziya verirsiniz: istifadə etmək, köçürmək, təkrar istehsal etmək, paylamaq, satmaq, resell, yayım, yayım, retitle, mağaza, ictimai yerlərdə icra etmək, ictimai yerlərdə nümayiş etdirmək, islah etmək, tərcümə etmək, sərəncam vermək (bütövlükdə və ya qismən),  və hər hansı bir məqsəd, kommersiya, reklam və ya digər məqsədlər üçün Öz Töhfələrinizi (o cümlədən, məhdudiyyət olmadan, surətinizi, adınızı və səsinizi) istismar edərək, digər əsərlərin, Töhfələrinizin derivativ əsərlərini hazırlamaq və ya daxil etmək və bu bölmədə verilmiş lisenziyalara tabe olmaq. Bizim istifadəmiz və paylanmamız istənilən media formatlarında və istənilən media kanalları vasitəsilə baş verə bilər.</p>
+
+<p>Bu lisenziyaya bizim adınızdan, şirkət adından və françayzinq adından istifadə etməyimiz, tətbiq olunan kimi daxildir. Sizin təqdim etdiyiniz ticarət nişanlarından, xidmət nişanlarından, ticarət adlarından, loqolarından və şəxsi və kommersiya şəkillərindən hər hansı biri.</p>
+
+<p>Siz yerləşdirdiyiniz və ya yüklədiyiniz şeylərə görə məsuliyyət daşıyırsınız: Xidmətlərin istənilən hissəsi vasitəsilə bizə Göndərmə göndərməklə və/və ya Töhfələr göndərməklə və ya Xidmətlər vasitəsilə Öz hesabınızı sosial şəbəkə hesablarınızın hər hansı biri ilə əlaqələndirərək Töhfələrə müraciət etmək, Siz:
+təsdiq edin ki, bizim 'QADAĞAN OLUNMUŞ FƏALIYYƏTLƏR'imizi oxuyub və razılaşdırmısınız və xidmətlər vasitəsilə hər hansı bir tabeçilik, təhqir, nifrət, zərərli, ləkələyici, ədəbsiz, xuliqanlıq, təhqiramiz, təhqiramiz, ayrı-seçkilik, hər hansı bir şəxsə və ya qrupa hədə-qorxu gəlmək, cinsi əlaqədə olmaq, yalan, qeyri-dəqiq, hiyləgərlik və ya azdırıcılıq kimi hər hansı bir Töhfəni yerləşdirməyəcək, göndərməyəcək, dərc etməyəcək, yükləməyəcək və ya ötürməyəcəksiniz;
+tətbiq olunan qanunla icazə verilən həddə qədər, hər hansı bir bu cür Tabeliyə və/və ya Töhfəyə hər hansı və ya bütün mənəvi hüquqlardan imtina etmək;
+hər hansı bu cür Təqdimat və/və ya Töhfələrinizin sizin üçün orijinal olması və ya bu cür Təqdimatlar və/və ya Töhfələr təqdim etmək üçün lazımi hüquq və lisenziyalara sahib olduğunuzu və Sizin Təqdimatlarınız və/və ya Töhfələrinizlə əlaqədar yuxarıda qeyd olunan hüquqları bizə vermək üçün tam səlahiyyətə malik olduğunuzu təmin etmək; və
+sifariş və təmsil ki, sizin Təqdimatlar və/və ya Töhfələr məxfi məlumat təşkil etmir.
+Siz yalnız Sizin Təqdimatlarınız və/və ya Töhfələrinizə görə məsuliyyət daşıyırsınız və siz a) bu bölməni, b) hər hansı üçüncü tərəfin əqli mülkiyyət hüququnu, yaxud c) tətbiq edilən qanunu pozduğunuz üçün bizə məruz qala biləcəyimiz hər hansı və bütün itkilərin əvəzini verməyə tam razısınız.</p>
+
+<p>Biz sizin Məzmunu aradan qaldırmaq və ya redaktə edə bilər. Biz hər hansı bir Töhfə nəzarət etmək üçün öhdəliyimiz olmasa da, biz hər hansı bir Töhfəni hər hansı bir vaxt qeyd-şərtsiz aradan qaldırmaq və ya redaktə etmək hüququna malik olacağıq. Əgər bizim məntiqi fikrimizcə, biz bu cür Töhfələri zərərli hesab ediriksə və ya bu Hüquqi Şərtləri pozuruqsa. Əgər biz bu cür Töhfələri aradan qaldırsaq və ya redaktə etsək, hesabınızı da dayandıra və ya qeyri-fəal edə və səlahiyyətli orqanlara məlumat verə bilərik.</p>
+
+<p>Müəllif hüquqlarının pozulması</p>
+
+<p>Biz başqalarının əqli mülkiyyət hüquqlarına hörmətlə yanaşırıq. Əgər siz hesab edirsinizsə ki, Xidmətlər üzrə və ya onun vasitəsilə mövcud olan hər hansı material sizin sahib olduğunuz və ya nəzarət etdiyiniz hər hansı müəlliflik hüququna ziddir, zəhmət olmasa, dərhal aşağıda 'DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA) QEYDİYYAT VƏ SİyaSƏTƏ" bölməsinə müraciət edin.</p>
+
+<h3 id="userreps">3. İSTIFADƏÇI TƏMSILLƏRI</h3>
+
+<p>Xidmətlərdən istifadə etməklə siz bunu təmsil edir və zəmanət verirsiniz: 1) təqdim etdiyiniz bütün qeydiyyat məlumatları həqiqi, dəqiq, aktual və tam olacaq; 2) siz bu cür məlumatların düzgünlüyünü qoruyub saxlayacaq və lazım gəldikdə belə qeydiyyat məlumatlarını dərhal yeniləyəcəksiniz; 3) hüquq qabiliyyətinə maliksiniz və bu Hüquqi Şərtlərə əməl etməyə razısınız; 4) siz öz ixtiyarınızda olan yetkinlik yaşına çatmayan şəxs deyilsiniz; 5) istər bot, istər skript, istərsə də digər vasitələrlə avtomatlaşdırılmış və ya qeyri-insani vasitələrlə Xidmətlərə daxil olmayacaqsınız; 6) Xidmətlərdən hər hansı qanunsuz və ya icazəsiz məqsədlər üçün istifadə etməyəcəksiniz; və 7) Xidmətlərdən istifadəniz heç bir tətbiq olunan qanun və ya nizamnaməni pozmayacaqdır.</p>
+
+<p>Əgər siz əsassız, qeyri-dəqiq, cari və ya tam olmayan hər hansı bir məlumat verirsinizsə, biz sizin hesabınızı dayandırmaq və ya dayandırmaq və Xidmətlərin istənilən və ya gələcəkdə istifadəsini (və ya onun hər hansı bir hissəsini) imtina etmək hüququna malikik.</p>
+
+<h3 id="userreg">4. İSTIFADƏÇI QEYDIYYATı</h3>
+
+<p>Xidmətlərdən istifadə etmək üçün qeydiyyatdan keçmək tələb oluna bilər. Siz parolunuzu məxfi saxlamağa razısınız və hesabınızdan və parolunuzdan bütün istifadə üçün məsuliyyət daşıyacaqsınız. Biz seçdiyiniz istifadəçi adını aradan qaldırmaq, geri almaq və ya dəyişdirmək hüququnu yalnız bizim ixtiyarımızda saxlayırıq ki, bu cür istifadəçi adı yersiz, ədəbsiz və ya başqa dərəcədə etirazdır.</p>
+
+<h3 id="products">5. MƏHSULLAR</h3>
+
+<p>Xidmətlərdə mövcud olan məhsulların rənglərini, xüsusiyyətlərini, spesifikalarını və detallarını mümkün qədər dəqiq nümayiş etdirmək üçün əlimizdən gələni edirik. Lakin biz məhsulların rənglərinin, xüsusiyyətlərinin, spesifikalarının və detallarının dəqiq, dolğun, etibarlı, cari və ya digər səhvlərdən azad olacağına zəmanət vermirik. Sizin elektron displeyiniz məhsulların əsl rəng və detallarını dəqiq əks etdirməyə bilər. Bütün məhsullar əlçatandır və biz əşyaların stokda olacağına zəmanət verə bilmərik. İstənilən məhsulları istənilən vaxt istənilən səbəbdən dayandırmaq hüququnu saxlayırıq. Bütün məhsulların qiymətləri dəyişilməyə məruz qalır.</p>
+
+<h3 id="purchases">6. ALıŞ-VERIŞ VƏ ÖDƏNIŞ</h3>
+
+<p>Aşağıdakı ödəniş formalarını qəbul edirik:</p>
+<ul>
+    <li>Viza</li>
+    <li>Mastercard</li>
+    <li>Amerikan Ekspressi</li>
+    <li>PayPal</li>
+</ul>
+
+<p>Siz Xidmətlər vasitəsilə edilən bütün satınalmalar üçün cari, tam və dəqiq satınalma və hesab məlumatlarını təqdim etməyə razısınız. Siz daha sonra e-poçt ünvanı, ödəniş metodu, və ödəniş kartının müddəti başa çatması daxil olmaqla hesab və ödəniş məlumatlarını dərhal yeniləməyə razısınız. Beləliklə, biz sizin əməliyyatları başa çatdırmaq və lazım gəldikdə sizinlə əlaqə saxlaya bilərik. Bizdən tələb olunan hesab edildiyi kimi alış-verişin qiymətinə satış vergisi əlavə olunacaq. Biz istənilən vaxt qiymətləri dəyişə bilərik.</p>
+
+<p>Siz alış-verişlərinizə və hər hansı bir tətbiqi gəmiçilik haqqına görə bütün ödənişləri o zaman qüvvədə olan qiymətlərlə ödəməyə razısınız. Siz bizə sifarişinizi yerinə yetirdikdən sonra bu cür məbləğlərə görə seçdiyiniz ödəniş provayderinizi ödəmək səlahiyyətini verirsiniz. Biz qiymətdə hər hansı bir səhvi və ya səhvi düzəltmək hüququnu artıq istəmiş və ya ödəniş almış olsaq belə saxlayırıq.</p>
+
+<p>Biz Xidmətlər vasitəsilə verilən istənilən sifarişdən imtina etmək hüququnu saxlayırıq. Biz tək ağlımızla hər bir insana, hər bir ailə və ya hər bir sifarişə görə alınan miqdarları məhdudlaşdıra və ya ləğv edə bilərik. Bu məhdudiyyətlərə eyni müştəri hesabı ilə və ya onun altında yerləşdirilmiş sifarişlər, eyni ödəniş üsulu və/və ya eyni hesablaşma və ya göndərmə ünvanından istifadə edən sifarişlər daxil ola bilər. Biz yalnız öz qərarımızla alverçilər, satıcılar və ya payçılar tərəfindən verilən əmrləri məhdudlaşdırmaq və ya qadağan etmək hüququnu saxlayırıq.</p>
+
+<h3 id="returnyes">7. RETURN/REFUNDS POLICY</h3>
+
+<p>Xahiş edirik, hər hansı alış-veriş etməzdən əvvəl Xidmətlərdə yerləşdirilmiş Qayıdış Siyasətimizi nəzərdən keçirəsiniz.</p>
+
+<h3 id="software">8. PROQRAM TƏMINATı</h3>
+
+<p>Xidmətlərimizlə əlaqədar istifadə üçün proqram təminatı daxil edə bilərik. Əgər bu cür proqram təminatı son istifadəçi lisenziyası müqaviləsi ('EULA') ilə müşayiət olunarsa, EULA şərtləri sizin proqram təminatından istifadənizi idarə edəcək. Əgər belə proqram təminatı EULA ilə müşayiət olunmursa, o zaman biz sizə yalnız bizim xidmətlərlə əlaqədar və bu Hüquqi Şərtlərə uyğun olaraq belə proqram təminatından istifadə etmək üçün qeyri-ixtisas, ləğvolunmaz, şəxsi və daşınmaz lisenziya veririk. Hər hansı bir proqram təminatı və bununla bağlı hər hansı bir sənəd zəmanət olmadan, ya ifadə və ya nəzərdə tutulmuş, o cümlədən, məhdudiyyət olmadan, ticarət, müəyyən bir məqsəd üçün fitnə və ya qeyri-əqd nəzərdə tutulmuş zəmanətlər təmin edilir. Siz hər hansı bir proqram təminatının istifadəsindən və ya icrasından irəli gələn istənilən və bütün riskləri qəbul edirsiniz. EULA və ya bu Hüquqi Şərtlərə uyğun olaraq hər hansı bir proqram təminatını çoxalda və ya yenidən bölüşdürməyəcəksiniz.</p>
+
+<h3 id="prohibited">9. QADAĞAN OLUNMUŞ FƏALIYYƏTLƏR</h3>
+
+<p>Xidmətləri təqdim etdiyimiz xidmətdən başqa heç bir məqsəd üçün daxil ola və ya istifadə edə bilməzsiniz. Xidmətlər bizim tərəfimizdən xüsusi olaraq dəstəklənən və ya təsdiq olunanlar istisna olmaqla, hər hansı kommersiya işi ilə əlaqədar istifadə oluna bilməz.</p>
+
+<p>Xidmətlərin istifadəçisi olaraq, razısınız ki, bu deyil:</p>
+<ul>
+    <li>Bizdən yazılı icazə almadan bir toplama, kompilyasiya, məlumat bazası və ya directory yaratmaq və ya birbaşa və ya dolayı yolla tərtib etmək üçün Servislərdən məlumatları və ya digər məzmunu sistematik olaraq əldə edin.</li>
+    <li>Hiyləgərlik, aldatma və ya bizi və digər istifadəçiləri, xüsusilə istifadəçi parolları kimi həssas hesab məlumatlarını öyrənmək cəhdində.</li>
+    <li>Xidmətlərin təhlükəsizliklə bağlı xüsusiyyətlərini circumvent, disable və ya başqa cür müdaxilə, o cümlədən hər hansı Bir Məzmunun istifadəsini və ya köçürülməsini əngəlləmiş və ya məhdudlaşdıran və ya Xidmətlərin və/və ya orada olan Məzmunun istifadəsinə məhdudiyyətləri həyata keçirən xüsusiyyətlər.</li>
+    <li>Disparage, ləkə və ya başqa zərər, bizim fikrimizdə, biz və/və ya Xidmətlər.</li>
+    <li>Xidmətlərdən əldə edilən hər hansı məlumatdan digər şəxsə qarşı təhqir, təhqir və ya zərər vermək məqsədi ilə istifadə edin.</li>
+    <li>Dəstək xidmətlərimizdən düzgün istifadə etmə, təhqir və ya pis rəftar barədə yalan xəbərlər göndər.</li>
+    <li>Xidmətlərdən hər hansı bir tətbiq olunan qanun və ya qaydalara zidd tərzdə istifadə edin.</li>
+    <li>Xidmətlərin icazəsiz çərçivələnməsi və ya əlaqələndirilməsi ilə məşğul olun.</li>
+    <li>Böyük hərflərlə həddən artıq istifadə və spamming (repetitor mətninin davamlı yerləşdirilməsi), hər hansı bir tərəfin fasiləsiz istifadəsinə və xidmətlərdən zövq nmasına mane olan və ya xidmətlərdəki nasazlıqları, nasazlıqları, pozulmaları, dəyişdirmə və ya onlara qulluq göstərilməsinə mane olan, onları pozan, pozan, dəyişdirən və ya müdaxilə edən, böyük hərflərlə və spamming (repetitor mətninin fasiləsiz yerləşdirilməsi) daxil olmaqla, virusları yükləmək və ya ötürmək (və ya ötürməyə cəhd etmək) və ya digər material.</li>
+    <li>Sistemdən istənilən avtomatlaşdırılmış istifadə ilə məşğul olmaq, məsələn, şərh və ya mesaj göndərmək üçün skriptlərdən istifadə etmək və ya hər hansı bir məlumat mədənləri, robotlar, yaxud oxşar məlumatların toplanması və çıxarılması alətlərindən istifadə etmək.</li>
+    <li>Müəllif hüququ və ya digər proporsional hüquqlar haqqında bildirişi istənilən Məzmundan silin.</li>
+    <li>Başqa bir istifadəçi və ya şəxsin kim olduğunu və ya başqa istifadəçinin istifadəçi adını istifadə etməyə cəhd edin.</li>
+    <li>Passiv və ya aktiv informasiya toplama və ya ötürmə mexanizmi kimi fəaliyyət göstərən hər hansı materialı, o cümlədən məhdudiyyətsiz, aydın qrafik mübadilə formatları ('gifs'), 1×1 piksel, web bugs, cookies, və ya digər oxşar cihazlar (bəzən 'spyware' və ya 'passiv toplama mexanizmləri' və ya 'pcms' kimi nəzərdə tutulur) yükləmək və ya ötürmək (və ya ötürmək və ya ötürməyə cəhd etmək).</li>
+    <li>Xidmətlərə və ya Xidmətlərə bağlı şəbəkə və ya xidmətlərə müdaxilə etmək, onu pozmaq və ya həddindən artıq yük yaratmaq.</li>
+    <li>Sizə Xidmətlərin hər hansı bir hissəsini təqdim etməklə məşğul olan işçilərimizin və ya agentlərimizin hər hansı birini incitmək, qıcıqlandırmaq, qorxutmaq və ya hədələmək.</li>
+    <li>Xidmətlərə girişin qarşısını almaq və ya məhdudlaşdırmaq üçün nəzərdə tutulmuş Xidmətlərin hər hansı bir tədbirlərindən və ya Xidmətlərin hər hansı bir hissəsindən kənara çıxmağa cəhd etmək.</li>
+    <li>Flash, PHP, HTML, JavaScript və ya digər kod daxil olmaqla, lakin bunlarla məhdudlaşdırılmayan Xidmətlərin proqram təminatını kopyalayın və ya uyğunlaşdırın.</li>
+    <li>Tətbiq olunan qanunla icazə verilən hallar istisna olmaqla, deşifrə, dekompilasiya, disassemasiya və ya əks mühəndisdən ibarət olan və ya hər hansı bir şəkildə Xidmətlərin bir hissəsini təşkil edən proqram təminatı.</li>
+    <li>Yalnız standart axtarış sistemi və ya İnternet brauzerinin istifadəsi, istifadəsi, işə salınması, inkişaf etdirilməsi və ya hər hansı bir avtomatlaşdırılmış sistemin, o cümlədən məhdudiyyət olmadan, hər hansı bir hörümçək, robot, cheat utility, scraper, və ya offline reader nəticəsində ola bilər ki, Services daxil, və ya icazəsiz hər hansı bir script və ya digər proqram istifadə və ya işə salın.</li>
+    <li>Xidmətlər üzrə alış-veriş etmək üçün alıcı agentdən və ya alış agentdən istifadə edin.</li>
+    <li>İstifadəçilərin elektron və ya digər vasitələrlə istifadəçi adları və/və ya e-poçt ünvanlarını elektron və ya digər vasitələrlə toplamaq və ya istifadəçi hesablarını avtomatlaşdırılmış üsullarla və ya saxta pretenceslər altında yaratmaq daxil olmaqla, Xidmətlərdən hər hansı icazəsiz istifadə edin.</li>
+    <li>Bizimlə rəqabət aparmaq və ya hər hansı gəlir gətirən hər hansı bir fəaliyyət və ya kommersiya müəssisəsi üçün Services və/və ya Content istifadə etmək üçün hər hansı bir səy hissəsi kimi Xidmətlər istifadə edin.</li>
+    <li>Mal və xidmətlərin reklam edilməsi və ya satışı təklif etmək üçün Xidmətlərdən istifadə edin.</li>
+</ul>
+
+<h3 id="ugc">10. İSTIFADƏÇI TƏRƏFINDƏN YARADıLAN TÖHFƏLƏR</h3>
+
+<p>Xidmətlər sizi bloqlar, mesaj lövhələri, onlayn forumlar və digər funksionallıqlar üzrə söhbət etməyə, töhfə verməyə və ya iştirak etməyə dəvət edə bilər. Həmçinin sizə mətn, yazı, video, audio, audio daxil olmaqla, ancaq yalnız mətn, yazı, video, audio olmaqla, yaratmaq, göndərmək, göndərmək, ötürmək, icra etmək, dərc etmək, yaymaq və ya yayım məzmunu və materiallarını təqdim etmək imkanı yarada bilər,  şəkillər, qrafika, şərh, təklif və ya şəxsi məlumat və ya digər material (kollektiv olaraq, 'töhfələr'). Töhfələr Xidmətlərin digər istifadəçiləri tərəfindən və üçüncü tərəf saytları vasitəsilə baxıla bilər. Belə ki, sizin ötürdyiniz hər bir töhfəyə qeyri-məxfi və qeyri-proporsional münasibət kimi yanaşıla bilər. Hər hansı bir Töhfəni yaratdıqda və ya təqdim etdikdə, bununla siz bunu təmsil edir və zəmanət verirsiniz:</p>
+<ul>
+    <li>Yaradılması, paylanması, ötürülməsi, ictimai nümayiş və ya performans, və sizin töhfələr daxil olmaq, download və ya surəti hər hansı bir üçüncü şəxsin müəllif hüquqları, patent, ticarət gizli, və ya mənəvi hüquqları ilə məhdudlaşmır və bu, mülkiyyət hüquqlarını, o cümlədən, bu hüquqların pozulması deyil və olmayacaq.</li>
+    <li>Siz xidmətlərin və bu Hüquqi Şərtlərin nəzərdə tutulmuş istənilən şəkildə sizin Töhfələrdən istifadə etmək üçün bizə, Xidmətlər və xidmətlərin digər istifadəçilərinə istifadə etmək və icazə vermək üçün lazımi lisenziyaların, hüquqların, razılıqların, buraxılışların və icazələrin yaradıcısı və sahibisiniz.</li>
+    <li>Sizin hər bir və ya hər bir və hər bir müəyyən fərdi şəxsin yazılı razılığı, buraxılışı və/və ya icazəniz var ki, hər bir və hər bir bu cür identifikativ fərdi şəxsin adından və ya bənzərliyindən istifadə edərək, Sizin Töhfələrinizin Xidmətlər və bu Hüquqi Terminlər tərəfindən düşünülən istənilən şəkildə daxil edilməsi və istifadəsi mümkün olsun.</li>
+    <li>Sizin töhfəniz nə yalan, nə də yanlışdır.</li>
+    <li>Sizin töhfələr tələb və ya icazəsiz reklam, promosyon materialları, piramida sxemləri, zəncir məktublar, spam, kütləvi poçt və ya digər müraciət formaları deyil.</li>
+    <li>Sizin sədəqələriniz ədəbsiz, iyrənc, lazmətli, murdar, zorakı, təhqiramiz, böhtançı və ya başqa bir şəkildə (bizim tərəfimizdən müəyyən edilmiş) bir şey deyildir.</li>
+    <li>Sizin ianələriniz heç kimi ələ salmır, ələ salmır, alçaltmır, qorxutmur və təhqir etmir.</li>
+    <li>Sizin töhfələriniz hər hansı başqa bir şəxsi incitmək və ya təhdid etmək üçün (bu terminlərin hüquqi mənasında) və konkret bir şəxsə və ya təbəqəyə qarşı zorakılığı təbliğ etmək üçün istifadə olunmur.</li>
+    <li>Sizin ianələriniz heç bir qüvvədə olan qanun, qayda və qayda-qanunu pozmur.</li>
+    <li>Sizin Töhfələr heç bir üçüncü şəxsin şəxsi və ya kütləvilik hüquqlarını pozmur.</li>
+    <li>Sizin ianələriniz uşaq pornoqrafiyası ilə bağlı heç bir tətbiq olunan qanunu pozmur, yaxud azyaşlı uşaqların sağlamlığını və rifahını qorumaq məqsədi daşıyır.</li>
+    <li>Sizin töhfələr irqi, milli mənşəyi, cinsi, cinsi tercih və fiziki handikap bağlı heç bir təhqiramiz şərh daxil deyil.</li>
+    <li>Sizin töhfələriniz başqa cür pozmur və ya bu Hüquqi Şərtlərin hər hansı bir təminatı, yaxud hər hansı bir tətbiqi qanun və ya nizamnaməni pozan materiallarla əlaqə yaradır.</li>
+</ul>
+
+<p>Yuxarıda qeyd olunanları pozaraq Xidmətlərdən hər hansı bir istifadə bu Hüquqi Şərtləri pozur və digər şeylərlə yanaşı, Xidmətlərdən istifadə hüquqlarınızın dayandırılması və ya dayandırılması ilə nəticələnə bilər.</p>
+
+<h3 id="license">11. TÖHFƏ LISENZIYASI</h3>
+
+<p>Xidmətlərinizin hər hansı bir hissəsinə Öz Töhfələrinizi yerləşdirməklə və ya Xidmətlərinizdən hesabınızı sosial şəbəkə hesablarınızın hər hansı biri ilə əlaqələndirərək Xidmətlərə əlçatan etməklə, siz avtomatik olaraq qrant verirsiniz. Siz, bizə məhdudiyyətsiz, məhdudiyyətsiz, qarşısıalınmaz, əbədi, qeyri-ekskluziv, təhvil-verilməz, sərəncamsız, vermək hüququnuz olan təmsil və fərman verirsiniz,  tam ödənişli, ümumdünya hüququ, və lisenziya almaq, istifadə etmək, surəti, təkrar istehsal, açıqlama, satış, resell, nəşriyyat, yayım, retitle, arxiv, mağaza, mağaza, cache, ictimai yerlərdə icra etmək, açıq şəkildə nümayiş etdirmək, islah etmək, tərcümə etmək, ötürmək, parçalamaq ( bütöv və ya qismən), və hər hansı bir məqsəd üçün, kommersiya, reklam və ya başqa məqsədlər üçün bu cür Töhfələri (o cümlədən, məhdudiyyət olmadan, sizin görüntünüz və səsinizi) paylamaq və derivativ əsərləri hazırlamaq,  və ya başqa əsərlərə, bu cür töhfələrə daxil etmək, yuxarıda göstərilən altlıqları vermək və səlahiyyət vermək. İstifadəsi və yayılması istənilən media formatlarında və istənilən media kanalları vasitəsilə baş verə bilər.</p>
+
+<p>Bu lisenziya hal-hazırda bilinən və ya bundan sonra inkişaf etmiş hər hansı bir forma, media və ya texnologiya tətbiq olunacaq. Bizim adınızı, şirkət adınızı və françayzinq adınızı tətbiq edərək, təqdim etdiyiniz ticarət nişanlarından, xidmət nişanlarından, ticarət adlarından, loqolarından və şəxsi və kommersiya şəkillərindən istifadəmizi özündə ehtiva edir. Siz öz ianələrinizdə bütün əxlaqi hüquqlardan imtina edir və zəmanət verirsiniz ki, ianələrinizdə əxlaqi hüquqlar başqa cür müdafiə olunmayıb.</p>
+
+<p>Biz sizə verdiyimiz və ' də öz payınızı vermirik. Siz töhfələrinizin hamısını və hər hansı əqli mülkiyyət hüquqlarını və ya Töhfələrinizə aid olan digər mülkiyyət hüquqlarını tam mülkiyyətində saxlayırsınız. Xidmətlər üzrə hər hansı sahədə Sizin təqdim etdiyiniz Töhfələrinizdə heç bir bəyanat və ya təmsil üçün məsuliyyət daşımırıq. Siz xidmətlərə verdiyiniz töhfələrə görə yalnız məsuliyyət daşıyırsınız və hər hansı və bütün məsuliyyətdən bizi azad etməyə və Töhfələrinizlə bağlı bizə qarşı hər hansı hüquqi addımdan çəkinməyə qəti razısınız.</p>
+
+<p>Bizim haqqımız var, tək və mütləq ixtiyarımızda, 1) redaktə etmək, düzəliş etmək və ya hər hansı bir Töhfəni başqa cür dəyişdirmək; 2) Xidmətlərə daha münasib yerlərdə yerləşdirmək üçün hər hansı Bir Töhfəni yenidən kateqoriyaya salmaq; və (3) istənilən vaxt və hər hansı bir səbəbdən, qeyd-şərtsiz, əvvəlcədən ekran və ya hər hansı bir Contributions silmək üçün. Bizim sizin töhfələrinizə nəzarət etməyə borcumuz yoxdur.</p>
+
+<h3 id="reviews">12. TƏKRARLAR ÜÇÜN GÖSTƏRIŞLƏR</h3>
+
+<p>Biz sizə xidmətlər üzrə sahələri təqdim edə bilərik ki, təkrar və ya reytinqləri tərk edəsiniz. Təkrar yerləşdirmə yerləşdirərkən aşağıdakı meyarlara əməl etməlisiniz: 1) nəzərdən keçirilən şəxs/orqanla öz təcrübəniz olmalıdır; 2) sizin təkrarlarınızda təhqiramiz, təhqiramiz, irqçi, təhqiramiz, nifrət dolu danışıq olmamalıdır; 3) sizin təkrarlarınızda dinə, irqə, cinsə, milli mənşəyə, yaşa, nikah vəziyyətinə, cinsi oriyentasiyaya və ya əlilliyə əsaslanan diskriminasiya xarakterli istinadlar olmamalıdır; 4) sizin təkrarlarınızda qeyri-qanuni fəaliyyətə istinadlar olmamalıdır; 5) mənfi rəylər yerləşdirilərsə, rəqiblərə aid edilməməli; 6) davranışın qanuniliyi ilə bağlı heç bir nəticə çıxarmamalısınız; 7) heç bir yalan və ya yanlış ifadə yerləşdirməyə bilərsiniz; və 8) başqalarını istər müsbət, istərsə də mənfi rəylər yerləşdirilməyə təşviq edən kampaniya təşkil edə bilərsiniz.</p>
+
+<p>Təkrarları tək ağlımızla qəbul edə, rədd edə və ya aradan qaldıra bilərik. Bizim heç bir öhdəliyimiz yoxdur ki, təkrarları yoxlamağa və ya təkrarları silməyək. Hətta kimsə təkrarları qeyri-ciddi və ya qeyri-dəqiq hesab etsə belə. Təkrarlar bizim tərəfimizdən dəstəklənməz və mütləq bizim fikirlərimizi və ya heç bir filial və ya əməkdaşımızın baxışlarını təmsil etməyin. Biz hər hansı bir təkrarlama və ya hər hansı bir təkrarlama nəticəsində meydana gələn hər hansı bir iddia, məsuliyyət və ya itkilər üçün məsuliyyəti öz üzərinə götürmürük. Təkrar yerləşdirməni yerləşdirməklə, siz burada bizə əbədi, qeyri-eksklüziv, bütün dünyada, royalty-free, tam ödənilmiş, təyin və sublicensable hüquq və lisenziya verir ki, təkrar istehsal, dəyişdirmək, tərcümə etmək, hər hansı bir vasitə ilə ötürülməsi, nümayiş etdirmək, icra etmək və/və ya nəzərdən keçirilməsi ilə bağlı bütün məzmunu paylamaq.</p>
+
+<h3 id="socialmedia">13. SOSIAL MEDIA</h3>
+
+<p>Xidmətlərin funksionallığının bir hissəsi olaraq hesabınızı üçüncü tərəfin xidmət təminatçıları ilə (hər belə hesab, 'Üçüncü Tərəf Hesabı') olan onlayn hesablarla əlaqələndirə bilərsiniz: 1) Xidmətlər vasitəsilə Üçüncü Tərəf Hesabınızın login məlumatlarını təqdim etmək; və ya (2) hər Üçüncü Tərəf Hesabından istifadənizi tənzimləyən tətbiq şərtləri və şərtlərinə əsasən icazə verilən Üçüncü Tərəf Hesabınıza daxil olmağımıza imkan vermək. Siz üçüncü tərəf Hesabınızın login məlumatlarını bizə açıqlamaq və/və ya üçüncü tərəf hesabınıza daxil olmaq hüququ əldə etmək hüququna malik olduğunuzu təmsil edir və zəmanət verirsiniz. Tətbiq olunan Üçüncü Tərəf Hesabından istifadənizi tənzimləyən şərtlərdən və şərtlərdən heç biri sizin tərəfindən pozulmadan və hər hansı bir məbləği ödəməyi və ya üçüncü tərəf hesabının üçüncü tərəf xidmət təminatçısı tərəfindən qoyulan hər hansı istifadə məhdudiyyətlərinə məruz qoymağımızı şərt qoymadan. Bizə hər hansı Üçüncü Tərəf Hesablarına daxil olmaq imkanı verməklə siz başa düşürsünüz ki, (1) üçüncü tərəf hesabınıza təqdim etdiyiniz və saxladığınız hər hansı məzmuna ("Sosial şəbəkə məzmunu") daxil ola, əlçatan edə və saxlaya bilərik (əgər varsa) ki, hesabınız vasitəsilə Xidmətlər vasitəsilə, o cümlədən məhdudiyyətsiz heç bir dost siyahıları və (2) üçüncü tərəf hesabınıza əlavə məlumatları sizin nə dərəcədə təqdim edə və ala bilərik hesabınızı Üçüncü Tərəf Hesabı ilə əlaqələndirdiyiniz zaman xəbər verilir. Seçdiyiniz Üçüncü Tərəf Hesablarından asılı olaraq və bu cür Üçüncü Tərəf Hesablarında təyin etdiyiniz məxfilik ayarlarına tabe olaraq, Üçüncü Tərəf Hesablarınıza yerləşdirdiyiniz şəxsi müəyyən edilə bilən məlumatlar Xidmətlərdəki hesabınızda və vasitəsilə əldə edilə bilər. Nəzərinizə çatdıraq ki, əgər Üçüncü Tərəf Hesabı və ya əlaqəli xidmət əlçatmaz hala gəlirsə və ya bizim belə Üçüncü Tərəf Hesabına daxil olmaq imkanımız üçüncü tərəf xidmət provayderi tərəfindən dayandırılırsa, o zaman Sosial Şəbəkə Məzmunu artıq Servislərdə və xidmətlər vasitəsilə mövcud olmaya bilər. Siz istənilən vaxt Xidmətlərdəki hesabınızla Üçüncü Tərəf Hesablarınız arasındakı əlaqəni qeyri-fəal edə biləcəksiz. NƏZƏRINIZƏ ÇATDıRAQ KI, ÜÇÜNCÜ TƏRƏFIN HESABLARıNıZLA ƏLAQƏLI OLAN ÜÇÜNCÜ TƏRƏF XIDMƏT TƏMINATÇıLARı ILƏ MÜNASIBƏTLƏRINIZ YALNıZ SIZIN ÜÇÜNCÜ TƏRƏFIN BELƏ XIDMƏT TƏMINATÇıLARı ILƏ BAĞLADıĞıNıZ MÜQAVILƏ(LƏR) ƏSASıNDA TƏNZIMLƏNIR. Biz hər hansı bir sosial şəbəkə Content hər hansı bir məqsəd üçün nəzərdən keçirmək üçün cəhd, o cümlədən, lakin məhdud deyil, dəqiqlik, qanunilik, və ya qeyri-qanun üçün. Biz heç bir Sosial Şəbəkə Content üçün məsuliyyət daşımır. Siz etiraf edir və razılaşırsınız ki, biz Üçüncü Tərəf Hesabı ilə əlaqəli olan e-poçt ünvanı kitabınıza və mobil cihazınızda və ya planşet kompüterinizdə saxlanılan əlaqə siyahınıza yalnız Xidmətlərdən istifadə etmək üçün qeydiyyatdan keçmiş həmin əlaqələri müəyyən etmək və məlumat vermək məqsədilə daxil ola bilərik. Aşağıdakı əlaqə məlumatlarından istifadə edərək bizimlə əlaqə saxlayaraq və ya hesabınızın ayarları vasitəsilə (əgər tətbiq olunarsa) Xidmətlər və Üçüncü Tərəf Hesabınız arasındakı əlaqəni deaktiv edə bilərsiniz. Belə Üçüncü Tərəf Hesabı vasitəsilə əldə edilmiş serverlərimizdə saxlanılan hər hansı bir məlumatı silməyə cəhd edəcəyik. Hesabınızla əlaqəli olan istifadəçi adı və profil şəkli istisna olmaqla.</p>
+
+<h3 id="thirdparty">14. ÜÇÜNCÜ TƏRƏFIN VEB-SAYTLARı VƏ MƏZMUNU</h3>
+
+<p>Xidmətlər digər veb-saytlara ('Üçüncü tərəf veb saytları') linkləri, həmçinin məqalələr, şəkillər, dizaynlar, musiqi, səs, video, informasiya, tətbiqlər, proqram təminatı və üçüncü tərəflərə məxsus və ya ondan yaranan digər məzmun və ya əşyalara ('Üçüncü tərəf məzmunu') daxil ola bilər (və ya siz Sayt vasitəsilə göndərilə bilərsiniz). Belə Üçüncü Tərəf Veb saytları və Üçüncü Tərəf Məzmunu tərəfimizdən araşdırılmır, nəzarət edilmir və ya dəqiqlik, müvafiqlik və ya tamlıq yoxlanılır. Biz Xidmətlər və ya Xidmətlər vasitəsilə yerləşdirilmiş, mövcud olan və ya xidmətlər vasitəsilə quraşdırılmış hər hansı üçüncü tərəf veb-saytlarına, o cümlədən məzmununa, dəqiqliyinə, təhqiramizliyinə, fikirlərinə, etibarlılığına, məxfilik praktikasına, yaxud üçüncü tərəf veb-saytlarına və ya üçüncü tərəfə daxil olan digər siyasətlərə görə məsuliyyət daşımırıq Məzmun. Hər hansı üçüncü tərəf veb-saytlarının və ya hər hansı Üçüncü Tərəf Məzmununun istifadəsinə və ya quraşdırılmasına daxil edilməsi, əlaqələndirilməsi və ya quraşdırılmasına icazə verilməsi bizim tərəfimizdən bu veb-saytın bəyənilməyi və ya dəstəklənməsini nəzərdə tutmur. Əgər Siz Xidmətləri tərk edib Üçüncü Tərəf Veb saytlarına daxil olmaq və ya hər hansı Bir Üçüncü Tərəf Məzmunundan istifadə etmək və ya quraşdırmaq qərarına gəlsəniz, bunu öz riskinizlə edirsiniz. Artıq bu Hüquqi Şərtlərin idarə olmadığını bilməlisiniz. Xidmətlərdən səyahət etdiyiniz və ya xidmətlərdən istifadə etdiyiniz və ya quraşdırdığınız hər hansı bir veb-saytın məxfilik və məlumat toplama praktikası da daxil olmaqla, tətbiq olunan şərtlər və siyasətləri nəzərdən keçirməlisiniz. Üçüncü Tərəf Veb saytları vasitəsilə etdiyiniz hər bir alış-veriş digər veb-saytlar və digər şirkətlər vasitəsilə olacaq. Biz sizinlə tətbiq olunan üçüncü tərəf arasında müstəsna olaraq olan bu cür alış-verişlərlə əlaqədar heç bir məsuliyyəti öz üzərimizə götürmyəcəyik. Siz razılaşırsınız və etiraf edirsiniz ki, biz Üçüncü Tərəfin veb-saytlarında təklif olunan məhsul və ya xidmətləri dəstəkləmirik və siz bu cür məhsul və ya xidmətlərin alış-verişi nəticəsində yaranan hər hansı zərərdən bizi qüsursuz tutacaqsınız. Bundan əlavə, siz sizi narahat edən hər hansı bir zərərdən və ya sizin üzərinizə gələn zərərdən bizi qüsursuz tutacaqsınız.</p>
+
+<h3 id="sitemanage">15. XİdMƏTLƏR üzrə IDARƏETMƏ</h3>
+
+<p>Biz hüququ saxlayırıq, lakin öhdəliyi deyil, aşağıdakıları etmək: 1) bu Hüquqi şərtlərin pozulmasına görə Xidmətlərə nəzarət etmək; 2) qanunçuluğu və ya bu Hüquqi Şərtləri pozan, o cümlədən məhdudiyyət olmadan belə istifadəçi haqqında hüquq-mühafizə orqanlarına məlumat verən hər bir şəxs barəsində müvafiq hüquqi tədbirlər görmək; 3) yeganə ehtiyatımızda və məhdudiyyət olmadan, imtina edin, girişi məhdudlaşdırın, imkanınızı məhdudlaşdırın və ya (texnoloji cəhətdən mümkün olan dərəcədə) hər hansı bir töhfənizi və ya onun hər hansı bir hissəsini; 4) bizim tək ehtiyatımızda və məhdudiyyətsiz, bildirişsiz və ya məsuliyyətsiz, Xidmətlərdən çıxarmaq və ya ölçülərinə görə həddən artıq olan və ya hər hansı bir şəkildə sistemlərimiz üçün ağır olan bütün faylları və məzmunu qeyri-fəal etmək; və (5) əks halda Xidmətlərimizi hüquq və əmlakımızın qorunması və Xidmətlərin düzgün fəaliyyətinin asanlaşdırılması üçün nəzərdə tutulmuş qaydada idarə etmək.</p>
+
+<h3 id="ppyes">16. MƏXFILİK SIYASƏTI</h3>
+
+<p>Biz məlumatların gizliliyi və təhlükəsizliyi ilə maraqlanırıq. Xahiş edirik <a target="_blank" href="userPrivacy.html">Gizlilik Siyasətimizi nəzərdən keçirəsiniz</a>. Xidmətlərdən istifadə etməklə siz bu Hüquqi Şərtlərə daxil olan Məxfilik Siyasətimizlə bağlı olmağa razısınız. Lütfən, Birləşmiş Krallıqda Xidmətlərə ev sahibliyi etməyi məsləhət görəsiniz. Əgər siz Birləşmiş Krallıqda tətbiq olunan qanunlardan fərqli olan qanunlar və ya şəxsi məlumatların toplanması, istifadəsi və ya açıqlanması ilə bağlı qanunlar və ya digər tələblərlə dünyanın istənilən digər regionundan Xidmətlərə daxil olursunuzsa, o zaman Servislərdən davamlı istifadəniz vasitəsilə siz məlumatlarınızı Birləşmiş Krallığa ötürürsünüz. Məlumatlarınızın Birləşmiş Krallıqda ötürülməsinə və işlənməsinə dair dəqiq razılıq əldə edirsiniz.</p>
+
+<h3 id="dmca">17. DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA) BILDIRIŞ VƏ SIYASƏT</h3>
+
+<p>Bildirişlər</p>
+
+<p>Biz başqalarının əqli mülkiyyət hüquqlarına hörmətlə yanaşırıq. Əgər siz hesab edirsinizsə ki, Xidmətlər üzərində və ya onun vasitəsilə mövcud olan hər hansı material sizin sahib olduğunuz və ya nəzarət etdiyiniz hər hansı bir müəllif hüququna ziddir, lütfən aşağıda təqdim olunan əlaqə məlumatlarını (a 'Notification' ) istifadə edərək Dərhal Təyin olunmuş Müəllif Hüquqları Agentimizə xəbər verin. Bildirişinizin surəti Bildirişdə göstərilən materialı yerləşdirən və ya saxlayan şəxsə göndəriləcəkdir. Xahiş edirik, məsləhət görəsiniz ki, federal qanunvericiliyə əsasən, əgər siz bildirişdə maddi səhv məlumatlar verirsinizsə, zərərə görə məsuliyyətə cəlb olunasınız. Beləliklə, əgər siz Əmin deyilsinizsə ki, Xidmətlər tərəfindən göstərilən və ya əlaqəli olan materiallar sizin müəllif hüququnuzun pozulmasıdır, onda əvvəlcə vəkillə əlaqə saxlamaq barədə düşünmək lazımdır.</p>
+
+<p>Bütün Bildirişlər DMCA 17 U.S. § 512(c)(3) tələblərinə cavab verməli və aşağıdakı məlumatları daxil etməlidir: 1) Hüquq sahibinin adından hərəkət etmək hüququ olan şəxsin fiziki və ya elektron imzası, guya, bu hüquqa zidd olan; 2) pozulması iddia edilən müəlliflik hüququ ilə qorunan əsərin müəyyən edilməsi, yaxud, Xidmətlər üzrə bir neçə müəlliflik hüququ olan əsər "Bildiriş" ilə əhatə olunarsa, Bu cür əsərlərin Xidmətlər üzrə nümayəndəlik siyahısı; 3) pozulmuş və ya fəaliyyəti pozulmuş mövzu olduğu iddia edilən və aradan qaldırılması və ya hansının qeyri-aktiv olması ilə bağlı olan materialın müəyyən edilməsi və materialın tapılması üçün kifayət qədər kifayət qədər kifayət edən informasiya; 4) şikayət edən tərəflə əlaqə saxlamaq üçün kifayət qədər kifayət qədər məlumat, məsələn, ünvan, telefon nömrəsi, əgər varsa, şikayət edən tərəflə əlaqə saxlaya biləcək e-mail ünvanı; 5) şikayət edən tərəfin şikayət edilən şəkildə materialdan istifadənin müəllif hüquqları sahibinin, onun agentinin və ya qanunun icazəli olmadığına dair yaxşı inam olduğuna dair bəyanat; və (6) bildirişdə göstərilən məlumatların dəqiq olduğunu, yalana görə isə cəza altında şikayətçi tərəfin, guya, hüquqa zidd olduğu iddia edilən müstəsna hüquq sahibinin adından hərəkət etmək səlahiyyətinə malik olduğunu bildirir.</p>
+
+<p>Bildirişi say</p>
+
+<p>Əgər siz öz müəllif hüquqlarına malik materialınızın səhv və ya yanlış məlumat vermə nəticəsində Xidmətlərdən çıxarıldığını hesab edirsinizsə, aşağıda göstərilən əlaqə məlumatlarından ("Counter Notification") istifadə edərək [bizə/bizim Təyin olunmuş Müəllif Hüquqları Agentimizə] yazılı əks bildiriş göndərə bilərsiniz. DMCA çərçivəsində effektiv Counter Notification olmaq üçün, Sizin Counter Notification əhəmiyyətli dərəcədə aşağıdakıları daxil etməlidir: 1) çıxarılmış və ya əlil olmuş materialın identifikasiyası və materialın götürülməmiş və ya əlil olmamışdan əvvəl göründüyü yer; 2) ünvanınızın yerləşdiyi Federal Rayon Məhkəməsinin yurisdiksiyasına razılıq verdiyiniz və ya ünvanınız Birləşmiş Ştatlardan kənardadırsa, bizim yerləşdiyimiz hər hansı məhkəmə bölgüsünə dair bəyanatı; 3) Bildirişi təqdim edən partiyadan və ya partiyanın agentindən prosesin xidmətini qəbul edəcəyiniz bəyanat; 4) sizin adınız, ünvanınız və telefon nömrəniz; 5) yalanın cəzası altında olan bəyanat ki, siz yaxşı imana maliksiniz ki, sual olunan material aradan qaldırılsın və ya götürüləcək materialın səhv və ya səhv müəyyən edilməsi nəticəsində aradan qaldırılsın və ya şikəst olsun; və (6) fiziki və ya elektron imzanızı.</p>
+
+<p>Əgər yuxarıda təsvir olunan tələblərə cavab verən əsaslı, yazılı Counter Notification bizə göndərsəniz, biz sizin aradan qaldırılmış və ya əlil materialınızı bərpa edəcəyik. Əgər biz ilk dəfə bizə bildiriş verən partiyadan bildiriş almasaq ki, belə tərəf sizi sual olunan materialla bağlı pozğun fəaliyyətlə məşğul olmaqdan çəkindirmək üçün məhkəmə tədbiri görüb. Nəzərinizə çatdıraq ki, əgər siz fiziki qüsurlu və ya aradan qaldırılmış məzmunun səhv və ya yanlış məlumatla aradan qaldırıldığı barədə maddi cəhətdən yanlış məlumat verirsinizsə, onda zərərə görə, o cümlədən xərclərə və vəkillik haqqına görə məsuliyyət daşıyırsınız. Bu, yalan xəbərdir.</p>
+
+<p>Təyin edilmiş Müəllif Hüquqları Agenti</p>
+<ul>
+    <li>Attn: Müəllif Hüquqları Agenti</li>
+    <li>Sadigjan Street, Apartment 4A, Bakı 1121, Azerbaijan</li>
+    <li>indo@site.com</li>
+</ul>
+
+<h3 id="terms">18. TERMIN VƏ TERMIN</h3>
+
+<p>Bu Hüquqi Terminlər Siz Xidmətlərdən istifadə etdiyiniz müddətdə tam qüvvədə və qüvvədə qalacaqdır. BU HÜQUQI ŞƏRTLƏRIN DIGƏR TƏMINATıNı MƏHDUDLAŞDıRMADAN, BIZ, YEGANƏ EHTIYATıMıZ VƏ YA MƏSULIYYƏTIMIZ OLMADAN, XIDMƏTLƏRƏ (O CÜMLƏDƏN MÜƏYYƏN IP ÜNVANLARıNıN BLOKLANMASı) DAXIL OLMAQ VƏ ISTIFADƏ ETMƏKDƏN IMTINA ETMƏK HÜQUQUNU HƏR HANSı BIR SƏBƏBƏ GÖRƏ VƏ YA SƏBƏBSIZ OLARAQ, O CÜMLƏDƏN BU HÜQUQI TERMINLƏRDƏ NƏZƏRDƏ TUTULMUŞ HƏR HANSı NÜMAYƏNDƏLIK, ZƏMANƏT VƏ YA ƏQDIN POZULMASıNA MƏHDUDIYYƏT QOYULMADAN VƏ YA HƏR HANSı BIR TƏTBIQ OLUNAN QANUN VƏ YA NIZAMNAMƏ ILƏ NƏZƏRDƏ TUTULMUŞ QAYDADA SAXLAYıRıQ. BIZ SIZIN XIDMƏTLƏRDƏN ISTIFADƏNIZƏ VƏ YA IŞTIRAKıNıZA SON VERƏ VƏ YA HESABıNıZı VƏ HƏR HANSı BIR KONTENTI VƏ YA MƏLUMATıNıZı, XƏBƏRDARLıQ ETMƏDƏN, YEGANƏ EHTIYATıMıZLA SILƏ BILƏRIK.</p>
+
+<p>Əgər hər hansı səbəbdən hesabınızı dayandırsaq və ya dayandırsaq, sizin adınızın altında yeni hesab, saxta və ya girov götürülmüş ad, yaxud hər hansı üçüncü şəxsin adı, hətta üçüncü şəxs adından hərəkət etdiyiniz halda belə, qeydiyyatdan keçmək və yaratmaq sizə qadağandır. Hesabınızı dayandırmaq və ya dayandırmaqla yanaşı, mülki, cinayət və injunktiv bərpa işlərini həyata keçirmək üçün məhdudiyyət qoyulmadan, müvafiq hüquqi tədbirlər görmək hüququnu saxlayırıq.</p>
+
+<h3 id="modifications">19. MODIFIKASIYALAR VƏ ARA VERMƏLƏR</h3>
+
+<p>Biz xidmətlərin məzmununu istənilən vaxt və ya hər hansı bir səbəbdən xəbər vermədən dəyişmək, dəyişdirmək və ya aradan qaldırmaq hüququnu yalnız ehtiyatımızda saxlayırıq. Bununla belə, bizim Xidmətlərimizə dair hər hansı bir məlumatı yeniləməyə borclu deyilik. Biz həmçinin istənilən vaxt xəbərsiz xidmətlərin hamısını və ya bir hissəsini dəyişdirmək və ya dayandırmaq hüququnu saxlayırıq. Biz sizin və ya hər hansı bir üçüncü tərəf üçün hər hansı bir dəyişiklik, qiymət dəyişikliyi, dayandırılması və ya Xidmətlərin dayandırılması üçün məsuliyyət daşımırıq.</p>
+
+<p>Xidmətlərin hər zaman əlçatan olacağına zəmanət verə bilmərik. Biz avadanlıq, proqram təminatı və ya digər problemlər ilə üzləşə bilər və ya Xidmətlərlə bağlı təmir işləri yerinə yetirməli, bunun nəticəsində fasilələr, gecikmələr və ya səhvlərə yol verə bilərik. Biz istənilən vaxt və ya hər hansı bir səbəbdən sizə xəbər vermədən Xidmətləri dəyişmək, yenidən baxmaq, yeniləmək, dayandırmaq, dayandırmaq və ya başqa cür dəyişdirmək hüququnu saxlayırıq. Siz razılaşırsınız ki, xidmətlərin hər hansı bir müddət ərzində və ya dayandırılması zamanı Xidmətlərə daxil ola bilməməyiniz və ya istifadə edə bilməməyiniz nəticəsində yaranan hər hansı itkiyə, ziyana və ya narahatlığa görə bizim heç bir məsuliyyətimiz yoxdur. Bu Hüquqi Terminlərdə heç bir şey bizi Xidmətləri qoruyub saxlamağa və dəstəkləməyə və ya bununla əlaqədar hər hansı düzəliş, yenilənmə və ya buraxılış təmin etməyə məcbur etmək üçün nəzərdə tutulmayacaqdır.</p>
+
+<h3 id="law">20. BƏLƏDIYYƏ QANUNVERICILIYI</h3>
+
+<p>Bu Hüquqi Terminlər İngiltərə qanunlarına əməl edərək idarə olunur və şərh olunur. Birləşmiş Millətlər Təşkilatının "Malların Beynəlxalq Satışı üzrə Müqavilələr Konvensiyası" açıq şəkildə tətbiq edilir. Əgər sizin yaşayış yeriniz Avropa Birliyi, ABŞ və ya konvensiyanın digər 62 ölkəsindən hər hansı birindədirsə, siz əlavə olaraq yaşayış ölkənizdə qanunun məcburi təminatları ilə sizə verilən müdafiəyə sahibsiniz. Bu o deməkdir ki, siz İngiltərədəki bu Hüquqi Terminlər və ya yaşadığınız konqresin hər hansı bir ölkə partiyası ilə əlaqədar istehlakçıların müdafiəsi hüquqlarınızı müdafiə etmək üçün iddia irəli sürə bilərsiniz.</p>
+
+<h3 id="disputes">21. MÜBAHISƏLƏRIN HƏLLI</h3>
+
+<h5>Bağlayıcı Arbitraj</h5>
+
+<p>Əgər siz Avropa İttifaqının rezidentisinizsə, bu Hüquqi Terminlərdən irəli gələn və ya ona aid olan hər hansı mübahisələr Strasburqda yerləşən Avropa Arbitraj Mərkəzinin bir hissəsi olan Avropa Arbitraj Məhkəməsinin Arbitraj və Daxili Qaydalarına uyğun olaraq təyin edilmiş arbitraj tərəfindən həll edilməlidir. Bu cür arbitrajın keçirildiyi yer İngiltərə olmalıdır. İngilis dilinin əsas dili ingilis dilidir. Bu qanun İngiltərə qanunlarıdır.</p>
+
+<p>Əgər siz ABŞ-ın rezidentisinizsə, mübahisələr ABŞ-da arbitraj yolu ilə həll olunmalıdır. Bu işlər üçün bələdiyyə qanunu ABŞ-ın qanunları olmalıdır.</p>
+
+<p>Hər hansı digər ölkənin sakinləri üçün arbitraj zalı və prosedurlar Avropa İttifaqının rezidentləri üçün nəzərdə tutulmuş prosedurlarla eyni olmalıdır.</p>
+
+<h5>Məhdudiyyətlər</h5>
+
+<p>Tərəflər razılaşırlar ki, hər hansı arbitraj tərəflər arasında ayrı-ayrılıqda mübahisə ilə məhdudlaşır. Qanunla icazə verilən tam dərəcədə, (a) heç bir arbitraj başqa bir iş ilə birləşmək bilməz; b) hər hansı mübahisənin sinif fəaliyyəti əsasında arbitraj edilməsi və ya sinif fəaliyyəti prosedurlarından istifadə edilməsi hüququ və ya səlahiyyəti yoxdur; və c) hər hansı mübahisənin ümumi ictimaiyyət və ya hər hansı digər şəxslər adından nəzərdə tutularaq nümayəndəlik qabiliyyətinə gətirilməsi hüququ və ya səlahiyyəti yoxdur.</p>
+
+<h5>Arbitrajdan istisnalar</h5>
+
+<p>Tərəflər razılaşırlar ki, aşağıdakı Mübahisələr məcburi arbitrajla bağlı yuxarıda göstərilən təminatlara tabe deyil: a) icra etmək və ya müdafiə etmək istəyən hər hansı Mübahisələrə, yaxud bir Tərəfin əqli mülkiyyət hüquqlarından hər hansı birinin əsaslılığına dair; b) oğurluq, quldurluq, şəxsi həyatın toxunulmazlığına soxulma və ya icazəsiz istifadə ilə bağlı ittihamlarla bağlı və ya irəli sürülən hər hansı Mübahisə; və c) injunktiv yüngüllük üçün hər hansı bir iddia. Əgər bu təminat qeyri-qanuni və ya icra edilməmiş hesab edilərsə, o zaman heç bir Tərəf bu təminatın həmin hissəsinə düşən hər hansı mübahisəni qeyri-qanuni və ya icra edilə bilməyən hesab edərək arbitraj seçmək üçün seçməz və belə Mübahisə yuxarıda göstərilən məhkəmələr daxilində səlahiyyətli səlahiyyətli məhkəmə tərəfindən qərara alınmalıdır. Tərəflər həmin məhkəmənin şəxsi yurisdiksiyasına təqdim etməyə razılaşırlar.</p>
+
+<h3 id="corrections">22. KORREKTLƏR</h3>
+
+<p>Xidmətlər haqqında məlumatlar ola bilər ki, burada tipoqrafik səhvlər, qeyri-dəqiqlik və ya o cümlədən təsvirlər, qiymətlər, əlçatanlıq və digər müxtəlif məlumatlar mövcuddur. Biz istənilən səhvləri, qeyri-dəqiqliyi və ya buraxılmış səhvləri düzəltmək və xidmətlər haqqında məlumatları istənilən vaxt, əvvəlcədən xəbər vermədən dəyişmək və ya yeniləmək hüququnu saxlayırıq.</p>
+
+<h3 id="disclaimer">23. DISCLAIMER</h3>
+
+<p>XIDMƏTLƏR AS-IS VƏ AS-AVAILABLE ƏSASıNDA TƏQDIM OLUNUR. SIZ RAZıLAŞıRSıNıZ KI, XIDMƏTLƏRDƏN ISTIFADƏNIZ SIZIN ÜÇÜN YEGANƏ TƏHLÜKƏ OLACAQ. BIZ BÜTÜN ZƏMANƏTLƏRI VƏ ONDAN ISTIFADƏNIZI, O CÜMLƏDƏN, MƏHDUDIYYƏTSIZ OLARAQ, TACIRLIYIN NƏZƏRDƏ TUTULMUŞ ZƏMANƏTLƏRINI, MÜƏYYƏN MƏQSƏD ÜÇÜN YARARLıLıĞı VƏ QEYRI-QANUNILIYI NƏZƏRƏ ALARAQ, QANUNLA ICAZƏ VERILƏN BÜTÜN ZƏMANƏTLƏRI, IFADƏ VƏ YA NƏZƏRDƏ TUTULMUŞ BÜTÜN ZƏMANƏTLƏRI LƏĞV EDIRIK. BIZ XIDMƏTLƏRIN MƏZMUNUNUN DƏQIQLIYI VƏ YA TAMLıĞı VƏ YA XIDMƏTLƏRLƏ ƏLAQƏLI HƏR HANSı VEB-SAYTıN VƏ YA MOBIL TƏTBIQLƏRIN MƏZMUNU HAQQıNDA HEÇ BIR ZƏMANƏT VƏ YA TƏMSILÇILIK VERMIRIK VƏ HƏR HANSı BIR (1) MƏZMUN VƏ MATERIALLARıN HƏR HANSı BIR XƏTA, SƏHV VƏ YA QEYRI-DƏQIQLIYINƏ GÖRƏ HEÇ BIR MƏSULIYYƏT VƏ MƏSULIYYƏT DAŞıMAYACAĞıQ, 2) ŞƏXSI ZƏDƏ VƏ YA ƏMLAKA DƏYƏN ZƏRƏR, HƏR HANSı BIR TƏBIƏTIN,  SIZIN XIDMƏTLƏRƏ DAXIL OLUB ISTIFADƏ ETMƏNIZ NƏTICƏSINDƏ, 3) TƏHLÜKƏSIZ SERVERLƏRIMIZƏ VƏ/VƏ YA ORADA SAXLANıLAN HƏR HANSı VƏ YA BÜTÜN ŞƏXSI MƏLUMATLARA VƏ/VƏ YA MALIYYƏ MƏLUMATLARıNA, (4) XIDMƏTLƏRƏ VƏ YA ONLARDAN HƏR HANSı BIR KƏSILMƏ VƏ YA ÖTÜRMƏNIN DAYANDıRıLMASı, 5) HƏR HANSı BIR BÖLÜK, VIRUS, TROYA ATı VƏ YA HƏR HANSı ÜÇÜNCÜ ŞƏXSLƏR TƏRƏFINDƏN XIDMƏTLƏRƏ VƏ YA ONLARıN VASITƏSILƏ ÖTÜRÜLƏ BILƏCƏK BƏNZƏRINƏ,  VƏ/VƏ YA (6) HƏR HANSı MƏZMUN VƏ MATERIALDA VƏ YA HƏR HANSı BIR MƏZMUN VƏ MATERIALDA HƏR HANSı BIR XƏTA VƏ YA BURAXıLMıŞ XƏTA VƏ YA HƏR HANSı BIR ZƏRƏRƏ GÖRƏ, XIDMƏTLƏR VASITƏSILƏ YERLƏŞDIRILMIŞ, ÖTÜRÜLƏN VƏ YA BAŞQA CÜR TƏQDIM EDILMIŞ HƏR HANSı BIR MƏZMUNUN ISTIFADƏSI NƏTICƏSINDƏ BAŞ VERƏN HƏR HANSı BIR ITKI VƏ YA ZƏRƏRƏ GÖRƏ. BIZ XIDMƏTLƏR, HƏR HANSı HIPERLINKED VEB SAYT, YAXUD HƏR HANSı BANNER VƏ YA DIGƏR REKLAMDA NÜMAYIŞ ETDIRILƏN HƏR HANSı BIR VEB SAYT VƏ YA MOBIL TƏTBIQ VASITƏSILƏ ÜÇÜNCÜ TƏRƏF TƏRƏFINDƏN REKLAM EDILƏN VƏ YA TƏKLIF EDILƏN HƏR HANSı MƏHSUL VƏ YA XIDMƏTƏ GÖRƏ CAVABDEHLIK DAŞıMıRıQ, DƏSTƏKLƏMIRIK, ZƏMANƏT VERMIRIK VƏ YA MƏSULIYYƏT DAŞıMıRıQ. BIZ SIZINLƏ MƏHSUL VƏ YA XIDMƏTLƏRIN HƏR HANSı ÜÇÜNCÜ TƏRƏF PROVAYDERLƏRI ARASıNDA HƏR HANSı ƏMƏLIYYATA NƏZARƏT ETMƏK ÜÇÜN TƏRƏF VƏ YA HƏR HANSı BIR ŞƏKILDƏ MƏSULIYYƏT DAŞıYACAĞıQ. HƏR HANSı BIR VASITƏ ILƏ VƏ YA HƏR HANSı BIR MÜHITDƏ MƏHSUL VƏ YA XIDMƏTIN SATıN ALıNMASıNDA OLDUĞU KIMI, SIZ DƏ ƏN YAXŞı MÜHAKIMƏNIZDƏN ISTIFADƏ ETMƏLI VƏ LAZıM GƏLDIKDƏ EHTIYATLı OLMALıSıNıZ.</p>
+
+<h3 id="liability">24. MƏSULIYYƏTIN MƏHDUDLAŞDıRıLMASı</h3>
+
+<p>HEÇ BIR HALDA BIZ VƏ YA DIREKTORLARıMıZ, IŞÇILƏRIMIZ VƏ YA AGENTLƏRIMIZ SIZIN VƏ YA HƏR HANSı BIR ÜÇÜNCÜ TƏRƏFIN QARŞıSıNDA HƏR HANSı BIR BIRBAŞA, DOLAYı, NƏTICƏLI, NÜMUNƏVI, TƏSADÜFI, XÜSUSI VƏ YA CƏZALANDıRıCı ZƏRƏRƏ GÖRƏ MƏSULIYYƏT DAŞıMıRıQ. O CÜMLƏDƏN ITIRILMIŞ GƏLIR, ITIRILMIŞ GƏLIR, MƏLUMATLARıN ITIRILMƏSI, YAXUD XIDMƏTLƏRDƏN ISTIFADƏ ETMƏYINIZDƏN IRƏLI GƏLƏN DIGƏR ZƏRƏRLƏR, HƏTTA BELƏ ZƏRƏRLƏRIN OLA BILƏCƏYI BARƏDƏ MƏSLƏHƏT VERILMIŞ OLSA BELƏ. 1996-Cı ILDƏ 6-Cı AY ƏRZINDƏ 6000 NƏFƏR VƏ 1000 NƏFƏR HƏLAK OLMUŞDUR. ABŞ-ıN BƏZI DÖVLƏT QANUNLARı VƏ BEYNƏLXALQ QANUNLARı NƏZƏRDƏ TUTAN ZƏMANƏTLƏRƏ MƏHDUDIYYƏTLƏR, YAXUD MÜƏYYƏN ZƏRƏRLƏRIN KƏNARLAŞDıRıLMASı VƏ YA MƏHDUDLAŞDıRıLMASı ILƏ BAĞLı MƏHDUDIYYƏTLƏRƏ YOL VERMIR. ƏGƏR BU QANUNLAR SIZƏ AIDDIRSƏ, YUXARıDA GÖSTƏRILƏN BƏZI VƏ YA BÜTÜN MƏHDUDIYYƏTLƏR SIZƏ AID OLMAYA BILƏR. SIZIN ƏLAVƏ HÜQUQLARıNıZ OLA BILƏR.</p>
+
+<h3 id="indemnification">25. İnDEMNIFIKASIYA</h3>
+
+<p>Siz bizi, o cümlədən filiallarımızı, filiallarımızı, eləcə də bütün işçilərimizi, agentlərimizi, əməkdaşlarımızı və işçilərimizi hər hansı itkidən, zərərdən, məsuliyyətdən, iddiadan və ya tələbdən, o cümlədən ağlabatan vəkillik haqqı və xərclərindən müdafiə etməyə, onlara ziyan vurmamağa və ya onlardan irəli gələn xərclərə qarşı saxlamağa razısınız: 1) Sizin töhfələriniz; 2) Xidmətlərdən istifadə; 3) bu Hüquqi Şərtlərin pozulması; 4) bu Hüquqi Şərtlərdə nəzərdə tutulmuş təmsil və zəmanətlərinizin hər hansı pozulması; 5) üçüncü şəxsin hüquqlarını, o cümlədən əqli mülkiyyət hüquqlarını pozması, lakin bunlarla məhdudlaşmır; və ya (6) Xidmətlər vasitəsilə bağladığınız Xidmətlərin hər hansı digər istifadəçisinə qarşı hər hansı bir overt zərərli hərəkət. Yuxarıda qeyd olunanlara baxmayaraq, biz haqqınızı, sizin hesabınızla, bizə indemnifikasiya etmək üçün tələb olunan hər hansı bir məsələnin müstəsna müdafiə və nəzarətini öz üzərinə götürmək hüququnu saxlayırıq. Siz bu cür iddiaların müdafiəmizlə, sizin hesabınızla əməkdaşlıq etməyə razısınız. Biz, bu cür iddiaların, hərəkətlərin və ya hərəkətlərin bu haqda mə'lum olduqdan sonra sizə mə'lum olduğunu bildirəcək.</p>
+
+<h3 id="userdata">26. İSTIFADƏÇI MƏLUMATLARı</h3>
+
+<p>Xidmətlərin icrasının idarə edilməsi məqsədi ilə Xidmətlərə ötürdüyünüz müəyyən məlumatları, eləcə də Xidmətlərdən istifadənizə aid məlumatları qoruyub saxlayacağıq. Biz müntəzəm olaraq məlumatların backups həyata keçirmək baxmayaraq, Siz yalnız sizin ötürdüyünüz və ya Xidmətlər istifadə edərək həyata keçirdiyiniz hər hansı fəaliyyət ilə bağlı olan bütün məlumatlara görə məsuliyyət daşıyırsınız. Siz razılaşırsınız ki, bu cür məlumatların hər hansı bir itkisinə və ya korlanmasına görə bizim sizin qarşınıza heç bir məsuliyyətimiz olmayacaq. Bununla da siz bu cür məlumatların hər hansı bir itkisi və ya korrupsiyasından irəli gələn hər hansı bir hərəkət hüququndan imtina edirsiniz.</p>
+
+<h3 id="electronic">27. ELEKTRON QAIMƏ-FAKTURA, ƏMƏLIYYAT VƏ IMZA</h3>
+
+<p>Xidmətləri ziyarət etmək, bizə e-mail göndərmək və onlayn formaları tamamlamaq elektron rabitə təşkil edir. Siz elektron rabitənin alınması üçün razılıq əldə edirsiniz. Siz razılaşırsınız ki, sizə elektron formada, e-poçt vasitəsilə və Xidmətlər üzrə təqdim etdiyimiz bütün müqavilələr, bildirişlər, açıqlamalar və digər kommunikasiyalar bu cür ünsiyyətin yazılı formada olması ilə bağlı istənilən hüquqi tələbi təmin edir. BUNUNLA SIZ ELEKTRON IMZANıN, MÜQAVILƏLƏRIN, SIFARIŞLƏRIN VƏ DIGƏR SƏNƏDLƏRIN ISTIFADƏSINƏ, BIZIM TƏRƏFIMIZDƏN VƏ YA XIDMƏTLƏR VASITƏSILƏ BAŞLANMıŞ VƏ YA TAMAMLANMıŞ ƏMƏLIYYATLARıN BILDIRIŞ, SIYASƏT VƏ QEYDLƏRININ ELEKTRON QAYDADA ÇATDıRıLMASıNA RAZıLıQ VERIRSINIZ. Siz bununla hər hansı bir qanun, qayda, qayda, sərəncam və ya digər qanunlarda nəzərdə tutulmuş hüquqlardan və ya tələblərdən imtina edirsiniz. Bu qanunlarda elektron olmayan sənədlərin ilkin imzası və ya çatdırılması və ya saxlanılması, yaxud elektron vasitələrdən başqa hər hansı vasitə ilə ödəniş və ya kreditlərin verilməsi tələb olunur.</p>
+
+<h3 id="california">28. KALIFORNIYA ISTIFADƏÇILƏRI VƏ REZIDENTLƏRI</h3>
+
+<p>Əgər bizdən hər hansı bir şikayət qaneedici şəkildə həll olunmasa, Kaliforniya Ticarət İşləri Departamentinin Ticarət Xidmətləri Bölməsinin Şikayətə Yardım Bölməsinə 1625 North Market Blvd., Suite N 112, Sacramento, Kaliforniya 95834 ünvanında və ya (800) 952-5210 və ya (916) 445-1254 telefon nömrəsi ilə yazılı şəkildə müraciət edə bilərsiniz.</p>
+
+<h3 id="misc">29. MİSSELEYNLƏR</h3>
+
+<p>Bu Hüquqi Terminlər və Xidmətlər haqqında və ya Xidmətlərə münasibətdə bizim tərəfimizdən yerləşdirilmiş hər hansı siyasət və ya fəaliyyət qaydaları sizin və bizim aramızda olan bütün saziş və anlaşmanı təşkil edir. Bizim bu Hüquq terminlərinin heç bir hüquq və ya təminatdan istifadə etməməsi və ya həyata keçirilməməsi bu hüquq və ya təminatdan imtina kimi fəaliyyət göstərməz. Bu Hüquqi Terminlər qanunla tam icazə verilən dərəcədə fəaliyyət göstərir. Biz istənilən vaxt istənilən və ya bütün hüquq və vəzifələrimizi başqalarına həvalə edə bilərik. Biz heç bir itkiyə, zərərə, ləngiməyə və ya hər hansı bir səbəbə görə məsuliyyət və ya məsuliyyət daşımayacağıq. Əgər bu Hüquqi Şərtlərin hər hansı bir təminatının və ya bir hissəsinin qanunsuz, boşluq və ya icra olunmaz olduğu müəyyən edilərsə, həmin təminat və ya onun bir hissəsi bu Hüquqi Terminlərdən kəsiləcək hesab olunur və qalan hər hansı bir təminatların qüvvədə və icra edilə bilməsinə təsir göstərmir. Bu Hüquqi Şərtlərin və ya Xidmətlərdən istifadənin nəticəsi olaraq sizinlə bizim aramızda yaradılan ortaq bir iş, əməkdaşlıq, iş və ya agentlik əlaqəsi yoxdur. Siz razılaşın ki, bu Hüquqi Terminlər onları tərtib etməklə bizə qarşı heç bir mə'na kəsb etməyəcəkdir. Siz burada bu Hüquqi Şərtlərin elektron formasını və bu Hüquqi Şərtlərin icra edilməsi üçün hereto tərəflər tərəfindən imzalanmamasına əsaslanaraq ola biləcəyiniz hər hansı və bütün müdafiədən imtina edirsiniz.</p>
+
+<h3 id="contact">30. BIZIMLƏ ƏLAQƏ SAXLAYıN</h3>
+
+<p>Xidmətlərlə bağlı şikayətin həlli və ya Xidmətlərdən istifadə ilə bağlı əlavə məlumat almaq üçün bizimlə əlaqə saxlayın:</p>
+
+<p> Sadigjan Street, Apartment 4A, Bakı 1121, Azerbaijan</p>
+<p>+994559119113</p>
+<p>indo@site.com</p>
+
+</div>
+    </div>
+</div>
+
+
+
+    <section class="footer">
+      <div class="container">
+        <div class="row row-box-lg">
+          <div class="col-12 col-lg-4 pt-2 pb-2">
+            <div class="footer-logo-wr">
+              <a href="./" class="footer-logo">
+                <div class="footer-logo-img">
+                  <img src="corporate-logo.svg" alt="logo" />
+                </div>
+                <h2 class="footer-logo-text m-0">Envog</h2>
+              </a>
+              
+              <div class="footer-contact">
+                <a class="footer-contact-item" href="mailto:indo@site.com">indo@site.com</a>
+                <a class="footer-contact-item" href="tel:+994559119113" >+994559119113</a>
+                <a class="footer-contact-item" href="https://wa.me/+994559119113">whatsapp</a>
+              </div>
+              
+            </div>
+          </div>
+
+          <hr class="footer-delimeter" />
+
+          <div class="col-12 col-lg-4 pt-2 pb-2">
+            <div class="footer-link-wr">
+              <div class="footer-link-list">
+                
+                <div class="footer-link-item">
+                  <a class="footer-link" href="spa-services.html">Spa Xidmətləri</a>
+                </div>
+                 
+                <div class="footer-link-item">
+                  <a class="footer-link" href="bridal-salon.html">Bridal Salon</a>
+                </div>
+                 
+                <div class="footer-link-item">
+                  <a class="footer-link" href="wedding-hairstyles.html">Toy Saç düzümləri</a>
+                </div>
+                 
+                <div class="footer-link-item">
+                  <a class="footer-link" href="beauty-salon.html">Gözəllik Salonu</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <hr class="footer-delimeter" />
+
+          <div class="col-12 col-lg-4 pt-2 pb-2">
+            <div class="shh">
+              <div class="footer-privacy-wr">
+                <div class="footer-privacy">
+                  <a class="" href="userPrivacy.html">Gizlilik siyasəti</a>
+                </div>
+                <div class="footer-privacy">
+                  <a class="" href="service-terms.html">Termin və şərtlər</a>
+                </div>
+                <div class="footer-privacy">
+                  <a class="" href="general-disclaimer.html">Disclaimerlər</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="delimeter" />
+
+        <div class="copyright">
+          <div>Copyright</div>
+          <div>&#169;</div>
+          <div class="current-year"></div>
+          <div>Envog</div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function updateBlock() {
+        const yearCopyElement = document.querySelector(".current-year");
+        const currentYear = getCurrentYear();
+        yearCopyElement.innerText = currentYear;
+      }
+      function getCurrentYear() {
+        return new Date().getFullYear();
+      }
+      updateBlock();
+    </script>
+     
+
+</body>
+</html>
