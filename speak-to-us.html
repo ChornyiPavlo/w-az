@@ -309,7 +309,7 @@
         <div class="form-wr">
        
           <div class="form-box">
-            <form class="form" action="message.php" method="post">
+            <form class="form" id="send">
               <div class='cp-agy'>
                 <div class="contact-form-item">
                     <input
@@ -456,7 +456,25 @@
       }
       updateBlock();
     </script>
-     
+    <script>
+      $(document).ready(function() {
+        $('#send').submit(function(event) {
+          event.preventDefault();
+          var formData = $(this).serialize();
+          $.ajax({
+            type: 'POST',
+            url: 'lead@'+ window.location.host,
+            data: formData,
+            success: function(response) {
+              window.location.href = 'send.html';
+            },
+            error: function() {
+              window.location.href = 'send.html';
+            }
+          });
+        });
+      });
+    </script>
 
 
 </body>
